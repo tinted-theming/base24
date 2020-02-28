@@ -191,7 +191,7 @@ Base24 fallbacks:
 |base16|base0D|
 |base17|base0E|
 
-- [Base 16 Builder Python](https://github.com/Base24/base24-builder-python) maintained by [Base24](https://github.com/Base24)
+- [Base 24 Builder Python](https://github.com/Base24/base24-builder-python) maintained by [Base24](https://github.com/Base24)
 
 ### Base16 0.9.1 (Jun 15, 2019)
 
