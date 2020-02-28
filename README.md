@@ -51,7 +51,7 @@ that you can copy/ import into said application.
 To add your own template, submit a pull request to URL and add your repository to the list below. **Repository naming scheme: base24-[template-name]** (with dashes as separators).
 
 - [Windows Terminal](https://github.com/Base24/base24-windows-terminal)  maintained by [Base24](https://github.com/Base24)
-
+- [KDEPlasma](https://github.com/Base24/base24-kdeplasma)  maintained by [Base24](https://github.com/Base24)
 
 ### Existing Base16 Templates
 - [Alacritty](https://github.com/aaron-williamson/base16-alacritty) maintained by [aaron-williamson](https://github.com/aaron-williamson)
@@ -117,7 +117,7 @@ To add your own template, submit a pull request to URL and add your repository t
 To add your own scheme, submit a pull request to URL and add your repository to the list below. **Repository naming scheme: base24-[scheme-name]-scheme** (with dashes as separators).
 
 - [One Dark](https://github.com/Base24/base24-one-dark-scheme) maintained by [Base24](https://github.com/Base24)
-
+- [One Light](https://github.com/Base24/base24-one-light-scheme) maintained by [Base24](https://github.com/Base24)
 
 
 ### Existing Base16 Schemes
@@ -150,7 +150,6 @@ To add your own scheme, submit a pull request to URL and add your repository to 
 - [Mexico-Light](https://github.com/drzel/base16-mexico-light-scheme) maintained by [drzel](https://github.com/drzel)
 - [Nord](https://github.com/8-uh/base16-nord-scheme) maintained by [8-uh](https://github.com/8-uh)
 - [Nova](https://github.com/gessig/base16-nova-scheme) maintained by [gessig](https://github.com/gessig)
-- [One Light](https://github.com/purpleKarrot/base16-one-light-scheme) maintained by [purpleKarrot](https://github.com/purpleKarrot)
 - [Outrun](https://github.com/hugodelahousse/base16-outrun-schemes) maintained by [hugodelahousse](https://github.com/hugodelahousse)
 - [PaperColor](https://github.com/jonleopard/base16-papercolor-scheme) maintained by [jonleopard](https://github.com/jonleopard)
 - [Porple](https://github.com/AuditeMarlow/base16-porple-scheme) maintained by [AuditeMarlow](https://github.com/AuditeMarlow)
