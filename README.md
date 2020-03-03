@@ -8,7 +8,7 @@
 
 # Base24
 
-<img src="readme-assets/icons/name.png" alt="Project Icon" width="750">
+<img src="readme-assets/icons/proj-icon.png" alt="Project Icon" width="100">
 
 
 ## Reason for this repo
@@ -29,7 +29,7 @@ limitation is that a base24 builder is needed for base24 templates.
 |Base24|->|Base24|X|:heavy_check_mark:|
 
 
-Thank you to https://github.com/chriskempson/base16/ (MIT) for Base16 
+Thank you to https://github.com/chriskempson/base16/ (MIT) for Base16
 
 
 ## Why Base24/ Base16 is useful
