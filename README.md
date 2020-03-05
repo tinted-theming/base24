@@ -48,10 +48,11 @@ that you can copy/ import into said application.
 
 ## Template Repositories
 
-To add your own template, submit a pull request to URL and add your repository to the list below. **Repository naming scheme: base24-[template-name]** (with dashes as separators).
+To add your own template, submit a pull request to URL and add your repository to the list below. **Repository naming scheme: base24-\[template-name\]** (with dashes as separators).
 
 - [Windows Terminal](https://github.com/Base24/base24-windows-terminal)  maintained by [Base24](https://github.com/Base24)
 - [KDEPlasma](https://github.com/Base24/base24-kdeplasma)  maintained by [Base24](https://github.com/Base24)
+- [Slack](https://github.com/Base24/base24-slack)  maintained by [Base24](https://github.com/Base24)
 
 ### Existing Base16 Templates
 - [Alacritty](https://github.com/aaron-williamson/base16-alacritty) maintained by [aaron-williamson](https://github.com/aaron-williamson)
@@ -114,11 +115,11 @@ To add your own template, submit a pull request to URL and add your repository t
 
 ## Scheme Repositories
 
-To add your own scheme, submit a pull request to URL and add your repository to the list below. **Repository naming scheme: base24-[scheme-name]-scheme** (with dashes as separators).
+To add your own scheme, submit a pull request to URL and add your repository to the list below. **Repository naming scheme: base24-\[scheme-name\]-scheme** (with dashes as separators).
 
 - [One Dark](https://github.com/Base24/base24-one-dark-scheme) maintained by [Base24](https://github.com/Base24)
 - [One Light](https://github.com/Base24/base24-one-light-scheme) maintained by [Base24](https://github.com/Base24)
-
+- [Dracula24](https://github.com/Base24/base24-dracula-scheme) maintained by [Base24](https://github.com/Base24)
 
 ### Existing Base16 Schemes
 - [Atelier](https://github.com/atelierbram/base16-atelier-schemes) maintained by [atelierbram](https://github.com/atelierbram)
@@ -172,7 +173,7 @@ To add your own scheme, submit a pull request to URL and add your repository to 
 
 ## Builder Repositories
 
-**Repository naming scheme: base24-builder-[language]** (with dashes as separators). The separate headings are the latest versions of the spec supported by each builder.
+**Repository naming scheme: base24-builder-\[language\]** (with dashes as separators). The separate headings are the latest versions of the spec supported by each builder.
 
 ### Base24 0.1.0 (Feb 2020)
 
