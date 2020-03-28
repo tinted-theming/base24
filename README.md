@@ -34,7 +34,6 @@
 	- [Code of Conduct](#code-of-conduct)
 	- [Contributing](#contributing)
 	- [Security](#security)
-- [Licence](#licence-1)
 
 ## Reason for this repo
 
@@ -282,8 +281,3 @@ Contributions are welcome, please see the [Contributing Guidelines](https://gith
 
 ### Security
 Thank you for improving the security of the project, please see the [Security Policy](https://github.com/Base24/.github/blob/master/SECURITY.md) for more information.
-
-
-## Licence
-MIT License
-(See the [LICENSE](/LICENSE.md) for more information.)
