@@ -17,12 +17,13 @@ extended pallette then it would be pointless to duplicate work)
 Currently Base24 has one participant. I would certainly encourage anyone who
 wishes to contribute in any way to do so
 
-```none
-Key:
-TODO	: Planned TODO
--		: TODO add details to roadmap (A TODO of a TODO if you will)
-N/A		: Not applicable - Likely because only base16 colours are used
-```
+
+|Key:| |
+|---|---|
+|TODO|Planned TODO|
+|-|TODO add details to roadmap (A TODO of a TODO if you will)|
+|N/A|Not applicable - Likely because only base16 colours are used|
+
 
 ## Schemes
 
