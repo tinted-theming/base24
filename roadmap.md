@@ -157,7 +157,7 @@ any contributions are most welcome
 
 ## Improving this document
 
-Improvements or suggestions to improve are always open, feel free to open an
+Improvements or suggestions to improve are always welcome, feel free to open an
 issue or pull request.
 
 In addition to this, I will endeavour to keep this document up to date and to
