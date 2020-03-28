@@ -6,10 +6,35 @@
 [![Commit activity](https://img.shields.io/github/commit-activity/m/Base24/Base24.svg?style=for-the-badge)](../../commits/master)
 [![Last commit](https://img.shields.io/github/last-commit/Base24/Base24.svg?style=for-the-badge)](../../commits/master)
 
+<!-- omit in toc -->
 # Base24
 
 <img src="readme-assets/icons/proj-icon.png" alt="Project Icon" width="100">
 
+
+- [Reason for this repo](#reason-for-this-repo)
+- [Compatibility](#compatibility)
+- [Why Base24/ Base16 is useful](#why-base24-base16-is-useful)
+- [Documentation](#documentation)
+- [Template Repositories](#template-repositories)
+	- [Existing Base16 Templates](#existing-base16-templates)
+- [Scheme Repositories](#scheme-repositories)
+	- [Existing Base16 Schemes](#existing-base16-schemes)
+- [Builder Repositories](#builder-repositories)
+	- [Base24 0.1.0 (Feb 2020)](#base24-010-feb-2020)
+	- [Base16 0.9.1 (Jun 15, 2019)](#base16-091-jun-15-2019)
+- [Download](#download)
+	- [Clone](#clone)
+		- [Using The Command Line](#using-the-command-line)
+		- [Using GitHub Desktop](#using-github-desktop)
+	- [Download Zip File](#download-zip-file)
+- [Community Files](#community-files)
+	- [Licence](#licence)
+	- [Changelog](#changelog)
+	- [Code of Conduct](#code-of-conduct)
+	- [Contributing](#contributing)
+	- [Security](#security)
+- [Licence](#licence-1)
 
 ## Reason for this repo
 
@@ -44,7 +69,8 @@ that you can copy/ import into said application.
 
 - [Styling Guidelines](styling.md)
 - [Builder Guidelines](builder.md)
-- [File Guidelines](https://github.com/chriskempson/base16/blob/master/file.md)
+- [File Guidelines](file.md)
+- [Roadmap/ TODO](roadmap.md)
 
 ## Template Repositories
 
@@ -120,6 +146,8 @@ To add your own scheme, submit a pull request to URL and add your repository to 
 - [One Dark](https://github.com/Base24/base24-one-dark-scheme) maintained by [Base24](https://github.com/Base24)
 - [One Light](https://github.com/Base24/base24-one-light-scheme) maintained by [Base24](https://github.com/Base24)
 - [Dracula24](https://github.com/Base24/base24-dracula-scheme) maintained by [Base24](https://github.com/Base24)
+
+- [Generated from Iterm2 themes](https://github.com/Base24/base24-mbadolato-iterm2-color-schemes) maintained by [Base24](https://github.com/Base24)
 
 ### Existing Base16 Schemes
 - [Atelier](https://github.com/atelierbram/base16-atelier-schemes) maintained by [atelierbram](https://github.com/atelierbram)
@@ -204,10 +232,6 @@ Base24 fallbacks:
 - [Base 16 Builder Rust](https://github.com/ilpianista/base16-builder-rust) maintained by [ilpianista](https://github.com/ilpianista)
 
 
-## Changelog
-See the [CHANGELOG](/CHANGELOG.md) for more information.
-
-
 ## Download
 ### Clone
 #### Using The Command Line
@@ -236,6 +260,28 @@ More information can be found at
 1. Download this GitHub repository
 2. Extract the zip archive
 3. Copy/ move to the desired location
+
+
+## Community Files
+### Licence
+MIT License
+(See the [LICENSE](/LICENSE.md) for more information.)
+
+### Changelog
+See the [Changelog](/CHANGELOG.md) for more information.
+
+### Code of Conduct
+In the interest of fostering an open and welcoming environment, we
+as contributors and maintainers pledge to make participation in our
+project and our community a harassment-free experience for everyone.
+Please see the
+[Code of Conduct](https://github.com/Base24/.github/blob/master/CODE_OF_CONDUCT.md) for more information.
+
+### Contributing
+Contributions are welcome, please see the [Contributing Guidelines](https://github.com/Base24/.github/blob/master/CONTRIBUTING.md) for more information.
+
+### Security
+Thank you for improving the security of the project, please see the [Security Policy](https://github.com/Base24/.github/blob/master/SECURITY.md) for more information.
 
 
 ## Licence
