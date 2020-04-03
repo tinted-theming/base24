@@ -1,0 +1,242 @@
+{
+	"type": "object",
+	"properties": {
+		"author": {
+			"title": "Author",
+			"description": "Name of the author.",
+			"type": "string",
+			"examples": [
+				" Author Name"
+			]
+		},
+		"scheme": {
+			"title": "Scheme",
+			"description": "Name of the scheme.",
+			"type": "string",
+			"examples": [
+				" Scheme Name"
+			]
+		},
+		"base00": {
+			"title": "base00",
+			"description": "Background. Default Background",
+			"type": "string",
+			"examples": [
+				" 282c34"
+			]
+		},
+		"base01": {
+			"title": "base01",
+			"description": "Black. Lighter Background(Used for status bars)",
+			"type": "string",
+			"examples": [
+				" 3f4451"
+			]
+		},
+		"base02": {
+			"title": "base02",
+			"description": "Bright Black. Selection Background",
+			"type": "string",
+			"examples": [
+				" 4f5666"
+			]
+		},
+		"base03": {
+			"title": "base03",
+			"description": "Comments, Invisibles, Line Highlighting.",
+			"type": "string",
+			"examples": [
+				" 545862"
+			]
+		},
+		"base04": {
+			"title": "base04",
+			"description": "Dark Foreground (Used for status bars).",
+			"type": "string",
+			"examples": [
+				" 9196a1"
+			]
+		},
+		"base05": {
+			"title": "base05",
+			"description": "Foreground. Default Foreground, Caret, Delimiters, Operators",
+			"type": "string",
+			"examples": [
+				" abb2bf"
+			]
+		},
+		"base06": {
+			"title": "base06",
+			"description": "White. Light Foreground (Not often used)",
+			"type": "string",
+			"examples": [
+				" e6e6e6"
+			]
+		},
+		"base07": {
+			"title": "base07",
+			"description": "Bright White. Lightest Foreground (Not often used)",
+			"type": "string",
+			"examples": [
+				" ffffff"
+			]
+		},
+		"base08": {
+			"title": "base08",
+			"description": "Red. Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted",
+			"type": "string",
+			"examples": [
+				" e06c75"
+			]
+		},
+		"base09": {
+			"title": "base09",
+			"description": "Yellow. Integers, Boolean, Constants, XML Attributes, Markup Link Url",
+			"type": "string",
+			"examples": [
+				" d19a66"
+			]
+		},
+		"base0A": {
+			"title": "base0A",
+			"description": "Classes, Markup Bold, Search Text Background.",
+			"type": "string",
+			"examples": [
+				" e5c07b"
+			]
+		},
+		"base0B": {
+			"title": "base0B",
+			"description": "Green. Strings, Inherited Class, Markup Code, Diff Inserted",
+			"type": "string",
+			"examples": [
+				" 98c379"
+			]
+		},
+		"base0C": {
+			"title": "base0C",
+			"description": "Cyan. Support, Regular Expressions, Escape Characters, Markup Quotes",
+			"type": "string",
+			"examples": [
+				" 56b6c2"
+			]
+		},
+		"base0D": {
+			"title": "base0D",
+			"description": "Blue. Functions, Methods, Attribute IDs, Headings",
+			"type": "string",
+			"examples": [
+				" 61afef"
+			]
+		},
+		"base0E": {
+			"title": "base0E",
+			"description": "Purple. Keywords, Storage, Selector, Markup Italic, Diff Changed",
+			"type": "string",
+			"examples": [
+				" c678dd"
+			]
+		},
+		"base0F": {
+			"title": "base0F",
+			"description": "Deprecated.",
+			"type": "string",
+			"examples": [
+				" be5046"
+			]
+		},
+		"base10": {
+			"title": "base10",
+			"description": "Darker Background.",
+			"type": "string",
+			"examples": [
+				" 21252b"
+			]
+		},
+		"base11": {
+			"title": "base11",
+			"description": "Darkest Background.",
+			"type": "string",
+			"examples": [
+				" 181a1f"
+			]
+		},
+		"base12": {
+			"title": "base12",
+			"description": "Bright Red.",
+			"type": "string",
+			"examples": [
+				" ff7b86"
+			]
+		},
+		"base13": {
+			"title": "base13",
+			"description": "Bright Yellow.",
+			"type": "string",
+			"examples": [
+				" efb074"
+			]
+		},
+		"base14": {
+			"title": "base14",
+			"description": "Bright Green.",
+			"type": "string",
+			"examples": [
+				" b1e18b"
+			]
+		},
+		"base15": {
+			"title": "base15",
+			"description": "Bright Cyan.",
+			"type": "string",
+			"examples": [
+				" 63d4e0"
+			]
+		},
+		"base16": {
+			"title": "base16",
+			"description": "Bright Blue.",
+			"type": "string",
+			"examples": [
+				" 67cdff"
+			]
+		},
+		"base17": {
+			"title": "base17",
+			"description": "Bright Purple.",
+			"type": "string",
+			"examples": [
+				" e48bff"
+			]
+		}
+	},
+	"additionalProperties": false,
+	"required": [
+		"author",
+		"scheme",
+		"base00",
+		"base01",
+		"base02",
+		"base03",
+		"base04",
+		"base05",
+		"base06",
+		"base07",
+		"base08",
+		"base09",
+		"base0A",
+		"base0B",
+		"base0C",
+		"base0D",
+		"base0E",
+		"base0F",
+		"base10",
+		"base11",
+		"base12",
+		"base13",
+		"base14",
+		"base15",
+		"base16",
+		"base17"
+	]
+}
