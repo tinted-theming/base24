@@ -38,20 +38,18 @@ ShortNote|Name|Current repo|Assigned to|
 |-|Atelier|https://github.com/atelierbram/base16-atelier-schemes|-|
 |-|Atlas|https://github.com/ajlende/base16-atlas-scheme|-|
 |-|Black Metal|https://github.com/metalelf0/base16-black-metal-scheme|-|
-|-|Brogrammer|https://github.com/piggyslasher/base16-brogrammer-scheme|-|
 |-|Brush Trees|https://github.com/whiteabelincoln/base16-brushtrees-scheme|-|
+|TODO|Chalk|-|Base24 - Replace Base16 with Base24 tweak Base24 version|
 |-|Circus|https://github.com/stepchowfun/base16-circus-scheme|-|
 |-|Classic|https://github.com/detly/base16-classic-scheme|-|
 |-|Codeschool|https://github.com/blockloop/base16-codeschool-scheme|-|
 |-|Cupertino|https://github.com/Defman21/base16-cupertino|-|
 |-|Default|https://github.com/chriskempson/base16-default-scheme|-|
 |Compare with base24 version|Dracula|https://github.com/dracula/base16-dracula-scheme|Base24|
-|TODO|Espresso|https://github.com/alexmirrington/base16-espresso-scheme|Base24|
-|-|Framer|https://github.com/jssee/base16-framer-scheme|-|
+|TODO|Flat|-|Base24 - Replace Base16 with Base24 version minor tweaks|
 |-|Fruit Soda|https://github.com/jozip/base16-fruit-soda-scheme|-|
-|-|Github|https://github.com/Defman21/base16-github-scheme|-|
 |-|Gruvbox|https://github.com/dawikur/base16-gruvbox-scheme|-|
-|-|Hardcore|https://github.com/callerc1/base16-hardcore-scheme|-|
+|TODO|Hardcore|https://github.com/callerc1/base16-hardcore-scheme|Base24 - Replace Base16 with Base24 version minor changes|
 |-|Helios|https://github.com/reyemxela/base16-helios-scheme|-|
 |-|Heetch|https://github.com/tealeg/base16-heetch-scheme|-|
 |-|Horizon|https://github.com/michael-ball/base16-horizon-scheme|-|

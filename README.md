@@ -144,7 +144,11 @@ To add your own template, submit a pull request to URL and add your repository t
 
 To add your own scheme, submit a pull request to URL and add your repository to the list below. **Repository naming scheme: base24-\[scheme-name\]-scheme** (with dashes as separators).
 
+- [Brogrammer](https://github.com/Base24/base24-brogrammer-scheme) maintained by [Base24](https://github.com/Base24)
 - [Dracula24](https://github.com/Base24/base24-dracula-scheme) maintained by [Base24](https://github.com/Base24)
+- [Espresso](https://github.com/Base24/base24-espresso-scheme) maintained by [Base24](https://github.com/Base24)
+- [Framer](https://github.com/Base24/base24-framer-scheme) maintained by [Base24](https://github.com/Base24)
+- [Github](https://github.com/Base24/base24-github-scheme) maintained by [Base24](https://github.com/Base24)
 - [One Dark](https://github.com/Base24/base24-one-dark-scheme) maintained by [Base24](https://github.com/Base24)
 - [One Light](https://github.com/Base24/base24-one-light-scheme) maintained by [Base24](https://github.com/Base24)
 
@@ -155,7 +159,6 @@ To add your own scheme, submit a pull request to URL and add your repository to 
 - [Atelier](https://github.com/atelierbram/base16-atelier-schemes) maintained by [atelierbram](https://github.com/atelierbram)
 - [Atlas](https://github.com/ajlende/base16-atlas-scheme) maintained by [ajlende](https://github.com/ajlende)
 - [Black Metal](https://github.com/metalelf0/base16-black-metal-scheme) maintained by [metalelf0](https://github.com/metalelf0)
-- [Brogrammer](https://github.com/piggyslasher/base16-brogrammer-scheme) maintained by [piggyslasher](https://github.com/piggyslasher)
 - [Brush Trees](https://github.com/whiteabelincoln/base16-brushtrees-scheme) maintained by [whiteabelincoln](https://github.com/whiteabelincoln)
 - [Circus](https://github.com/stepchowfun/base16-circus-scheme) maintained by [stepchowfun](https://github.com/stepchowfun) and [ewang12](https://github.com/ewang12)
 - [Classic](https://github.com/detly/base16-classic-scheme) maintained by [detly](https://github.com/detly)
@@ -163,10 +166,7 @@ To add your own scheme, submit a pull request to URL and add your repository to 
 - [Cupertino](https://github.com/Defman21/base16-cupertino) maintained by [Defman21](https://github.com/Defman21)
 - [Default](https://github.com/chriskempson/base16-default-scheme) maintained by [chriskempson](https://github.com/chriskempson)
 - [Dracula](https://github.com/dracula/base16-dracula-scheme) maintained by [mikebarkmin](https://github.com/mikebarkmin)
-- [Espresso](https://github.com/alexmirrington/base16-espresso-scheme) maintained by [alexmirrington](https://github.com/alexmirrington)
-- [Framer](https://github.com/jssee/base16-framer-scheme) maintained by [jssee](https://github.com/jssee)
 - [Fruit Soda](https://github.com/jozip/base16-fruit-soda-scheme) maintained by [jozip](https://github.com/jozip)
-- [Github](https://github.com/Defman21/base16-github-scheme) maintained by [Defman21](https://github.com/Defman21)
 - [Gruvbox](https://github.com/dawikur/base16-gruvbox-scheme) maintained by [dawikur](https://github.com/dawikur)
 - [Hardcore](https://github.com/callerc1/base16-hardcore-scheme) maintained by [callerc1](https://github.com/callerc1)
 - [Helios](https://github.com/reyemxela/base16-helios-scheme) maintained by [reyemxela](https://github.com/reyemxela)
