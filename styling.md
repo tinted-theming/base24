@@ -48,7 +48,7 @@ lighter still.
 |![#](https://placehold.it/25/ffffff/000000?text=+)|base07|15|Bright White|Lightest Foreground (Not often used)|
 |![#](https://placehold.it/25/e06c75/000000?text=+)|base08|1|Red|Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted|
 |![#](https://placehold.it/25/d19a66/000000?text=+)|base09|3|Yellow|Integers, Boolean, Constants, XML Attributes, Markup Link Url|
-|![#](https://placehold.it/25/e5c07b/000000?text=+)|base0A|-|NA|Classes, Markup Bold, Search Text Background|
+|![#](https://placehold.it/25/e5c07b/000000?text=+)|base0A|~11|NA|Classes, Markup Bold, Search Text Background|
 |![#](https://placehold.it/25/98c379/000000?text=+)|base0B|2|Green|Strings, Inherited Class, Markup Code, Diff Inserted|
 |![#](https://placehold.it/25/56b6c2/000000?text=+)|base0C|6|Cyan|Support, Regular Expressions, Escape Characters, Markup Quotes|
 |![#](https://placehold.it/25/61afef/000000?text=+)|base0D|4|Blue|Functions, Methods, Attribute IDs, Headings|
