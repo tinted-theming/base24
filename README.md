@@ -78,6 +78,7 @@ To add your own template, submit a pull request to URL and add your repository t
 - [Windows Terminal](https://github.com/Base24/base24-windows-terminal)  maintained by [Base24](https://github.com/Base24)
 - [KDEPlasma](https://github.com/Base24/base24-kdeplasma)  maintained by [Base24](https://github.com/Base24)
 - [Slack](https://github.com/Base24/base24-slack)  maintained by [Base24](https://github.com/Base24)
+- [Konsole](https://github.com/Base24/base24-konsole)  maintained by [Base24](https://github.com/Base24)
 
 ### Existing Base16 Templates
 - [Alacritty](https://github.com/aaron-williamson/base16-alacritty) maintained by [aaron-williamson](https://github.com/aaron-williamson)
@@ -106,7 +107,6 @@ To add your own template, submit a pull request to URL and add your repository t
 - [JOE](https://github.com/jjjordan/base16-joe) maintained by [jjjordan](https://github.com/jjjordan)
 - [Kakoune](https://github.com/leira/base16-kakoune) maintained by [leira](https://github.com/leira)
 - [kitty](https://github.com/kdrag0n/base16-kitty) maintained by [kdrag0n](https://github.com/kdrag0n)
-- [Konsole](https://github.com/cskeeters/base16-konsole) maintained by [cskeeters](https://github.com/cskeeters)
 - [mako](https://github.com/Eluminae/base16-mako) maintained by [Eluminae](https://github.com/Eluminae)
 - [MinTTY](https://github.com/geoffstokes/base16-mintty) maintained by [geoffstokes](https://github.com/geoffstokes)
 - [MonoDevelop](https://github.com/netpyoung/base16-monodevelop) maintained by [netpyoung](https://github.com/netpyoung)
