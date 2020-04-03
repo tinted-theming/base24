@@ -123,7 +123,6 @@ any contributions are most welcome
 |JOE|https://github.com/jjjordan/base16-joe|-|-|
 |Kakoune|https://github.com/leira/base16-kakoune|-|-|
 |kitty|https://github.com/kdrag0n/base16-kitty|-|-|
-|Konsole|https://github.com/cskeeters/base16-konsole|TODO|Base24|
 |mako|https://github.com/Eluminae/base16-mako|-|-|
 |MinTTY|https://github.com/geoffstokes/base16-mintty|-|-|
 |MonoDevelop|https://github.com/netpyoung/base16-monodevelop|-|-|

@@ -45,12 +45,12 @@ variants. This will also be part of a Github organisation
 The aim of this project is to offer compatibility with base16. The only
 limitation is that a base24 builder is needed for base24 templates.
 
-|Theme|->|Template|Base16 Builder|Base24 Builder|
+|Theme|⇒|Template|Base16 Builder|Base24 Builder|
 |---|---|---|---|---|
-|Base16|->|Base16|:heavy_check_mark:|:heavy_check_mark:|
-|Base24|->|Base16|:heavy_check_mark:|:heavy_check_mark:|
-|Base16|->|Base24|X|:heavy_check_mark:|
-|Base24|->|Base24|X|:heavy_check_mark:|
+|Base16|⇒|Base16|:heavy_check_mark:|:heavy_check_mark:|
+|Base24|⇒|Base16|:heavy_check_mark:|:heavy_check_mark:|
+|Base16|⇒|Base24|:x:|:heavy_check_mark:|
+|Base24|⇒|Base24|:x:|:heavy_check_mark:|
 
 
 Thank you to https://github.com/chriskempson/base16/ (MIT) for Base16
@@ -75,10 +75,11 @@ that you can copy/ import into said application.
 
 To add your own template, submit a pull request to URL and add your repository to the list below. **Repository naming scheme: base24-\[template-name\]** (with dashes as separators).
 
-- [Windows Terminal](https://github.com/Base24/base24-windows-terminal)  maintained by [Base24](https://github.com/Base24)
 - [KDEPlasma](https://github.com/Base24/base24-kdeplasma)  maintained by [Base24](https://github.com/Base24)
-- [Slack](https://github.com/Base24/base24-slack)  maintained by [Base24](https://github.com/Base24)
 - [Konsole](https://github.com/Base24/base24-konsole)  maintained by [Base24](https://github.com/Base24)
+- [Slack](https://github.com/Base24/base24-slack)  maintained by [Base24](https://github.com/Base24)
+- [Windows Terminal](https://github.com/Base24/base24-windows-terminal)  maintained by [Base24](https://github.com/Base24)
+
 
 ### Existing Base16 Templates
 - [Alacritty](https://github.com/aaron-williamson/base16-alacritty) maintained by [aaron-williamson](https://github.com/aaron-williamson)
@@ -142,9 +143,9 @@ To add your own template, submit a pull request to URL and add your repository t
 
 To add your own scheme, submit a pull request to URL and add your repository to the list below. **Repository naming scheme: base24-\[scheme-name\]-scheme** (with dashes as separators).
 
+- [Dracula24](https://github.com/Base24/base24-dracula-scheme) maintained by [Base24](https://github.com/Base24)
 - [One Dark](https://github.com/Base24/base24-one-dark-scheme) maintained by [Base24](https://github.com/Base24)
 - [One Light](https://github.com/Base24/base24-one-light-scheme) maintained by [Base24](https://github.com/Base24)
-- [Dracula24](https://github.com/Base24/base24-dracula-scheme) maintained by [Base24](https://github.com/Base24)
 
 - [Generated from Iterm2 themes](https://github.com/Base24/base24-mbadolato-iterm2-color-schemes) maintained by [Base24](https://github.com/Base24)
 
