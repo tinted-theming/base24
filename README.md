@@ -19,6 +19,7 @@
 - [Template Repositories](#template-repositories)
 	- [Existing Base16 Templates](#existing-base16-templates)
 - [Scheme Repositories](#scheme-repositories)
+	- [Generated from existing themes](#generated-from-existing-themes)
 	- [Existing Base16 Schemes](#existing-base16-schemes)
 - [Builder Repositories](#builder-repositories)
 	- [Base24 0.1.0 (Feb 2020)](#base24-010-feb-2020)
@@ -147,6 +148,7 @@ To add your own scheme, submit a pull request to URL and add your repository to 
 - [One Dark](https://github.com/Base24/base24-one-dark-scheme) maintained by [Base24](https://github.com/Base24)
 - [One Light](https://github.com/Base24/base24-one-light-scheme) maintained by [Base24](https://github.com/Base24)
 
+### Generated from existing themes
 - [Generated from Iterm2 themes](https://github.com/Base24/base24-mbadolato-iterm2-color-schemes) maintained by [Base24](https://github.com/Base24)
 
 ### Existing Base16 Schemes

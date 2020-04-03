@@ -140,7 +140,7 @@ any contributions are most welcome
 |StumpWM|https://github.com/tpine/base16-stumpwm|-|-|
 |Sway|https://github.com/rkubosz/base16-sway|-|-|
 |Termite|https://github.com/khamer/base16-termite|-|-|
-|Termux|https://github.com/kdrag0n/base16-termux|-|-|
+|Termux|https://github.com/kdrag0n/base16-termux|TODO|Base24|
 |TextMate & Sublime Text|https://github.com/chriskempson/base16-textmate|-|-|
 |Tilix|https://github.com/karlding/base16-tilix|-|-|
 |Vim|https://github.com/chriskempson/base16-vim|-|-|
