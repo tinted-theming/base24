@@ -84,7 +84,7 @@ To add your own template, submit a pull request to URL and add your repository t
 - [KDEPlasma](https://github.com/Base24/base24-kdeplasma)  maintained by [Base24](https://github.com/Base24)
 - [Konsole](https://github.com/Base24/base24-konsole)  maintained by [Base24](https://github.com/Base24)
 - [Slack](https://github.com/Base24/base24-slack)  maintained by [Base24](https://github.com/Base24)
-- [Termux](https://github.com/Base24/base24-termux)  maintained by [Base24](https://github.com/Base24
+- [Termux](https://github.com/Base24/base24-termux)  maintained by [Base24](https://github.com/Base24)
 - [Windows Terminal](https://github.com/Base24/base24-windows-terminal)  maintained by [Base24](https://github.com/Base24)
 
 
