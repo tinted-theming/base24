@@ -14,8 +14,8 @@ them as needed
 templates where beneficial (for example if a template has no need to use the
 extended pallette then it would be pointless to duplicate work)
 
-Currently Base24 has one participant. I would certainly encourage anyone who
-wishes to contribute in any way to do so
+Currently, Base24 has one participant. I would certainly encourage anyone who
+wishes to contribute in any way to do so.
 
 
 |Key:| |
@@ -116,7 +116,6 @@ ShortNote|Name|Current repo|Assigned to|
 |-|i3|https://github.com/khamer/base16-i3|-|
 |-|i3status|https://github.com/Eluminae/base16-i3status|-|
 |-|i3status-rust|https://github.com/mystfox/base16-i3status-rust|-|
-|TODO|iTerm2|https://github.com/martinlindhe/base16-iterm2|Base24|
 |-|Jetbrains|https://github.com/adilosa/base16-jetbrains|-|
 |-|JOE|https://github.com/jjjordan/base16-joe|-|
 |-|Kakoune|https://github.com/leira/base16-kakoune|-|
@@ -138,7 +137,6 @@ ShortNote|Name|Current repo|Assigned to|
 |-|StumpWM|https://github.com/tpine/base16-stumpwm|-|
 |-|Sway|https://github.com/rkubosz/base16-sway|-|
 |-|Termite|https://github.com/khamer/base16-termite|-|
-|TODO|Termux|https://github.com/kdrag0n/base16-termux|Base24|
 |-|TextMate & Sublime Text|https://github.com/chriskempson/base16-textmate|-|
 |-|Tilix|https://github.com/karlding/base16-tilix|-|
 |-|Vim|https://github.com/chriskempson/base16-vim|-|
@@ -147,7 +145,7 @@ ShortNote|Name|Current repo|Assigned to|
 |-|Waybar|https://github.com/mnussbaum/base16-waybar|-|
 |N/A|Windows Command Prompt|https://github.com/iamthad/base16-windows-command-prompt|-|
 |-|Xcode|https://github.com/kreeger/base16-xcode|-|
-|-|XFCE4 Terminal|https://github.com/afg984/base16-xfce4-terminal|-|
+|TODO|XFCE4 Terminal|https://github.com/afg984/base16-xfce4-terminal|Base24|
 |-|Xresources|https://github.com/binaryplease/base16-xresources|-|
 |-|Xshell|https://github.com/h404bi/base16-xshell|-|
 |-|zathura|https://github.com/nicodebo/base16-zathura|-|

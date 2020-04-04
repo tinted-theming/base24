@@ -23,7 +23,11 @@
 	- [Existing Base16 Schemes](#existing-base16-schemes)
 - [Builder Repositories](#builder-repositories)
 	- [Base24 0.1.0 (Feb 2020)](#base24-010-feb-2020)
+		- [Changes](#changes)
+		- [Builders](#builders)
 	- [Base16 0.9.1 (Jun 15, 2019)](#base16-091-jun-15-2019)
+		- [Changes](#changes-1)
+		- [Builders](#builders-1)
 - [Download](#download)
 	- [Clone](#clone)
 		- [Using The Command Line](#using-the-command-line)
@@ -38,9 +42,9 @@
 
 ## Reason for this repo
 
-Base16 doesn't provide bright colours that are used in terminal emulators. eg.
+Base16 doesn't provide bright colours that are used in terminal emulators. e.g.
 bright red. Base24 does. In addition to this, Base24 provides darker background
-variants. This will also be part of a Github organisation
+variants. This will also be part of a Github organization.
 
 ## Compatibility
 The aim of this project is to offer compatibility with base16. The only
@@ -76,9 +80,11 @@ that you can copy/ import into said application.
 
 To add your own template, submit a pull request to URL and add your repository to the list below. **Repository naming scheme: base24-\[template-name\]** (with dashes as separators).
 
+- [iTerm2](https://github.com/Base24/base24-iterm2)  maintained by [Base24](https://github.com/Base24
 - [KDEPlasma](https://github.com/Base24/base24-kdeplasma)  maintained by [Base24](https://github.com/Base24)
 - [Konsole](https://github.com/Base24/base24-konsole)  maintained by [Base24](https://github.com/Base24)
 - [Slack](https://github.com/Base24/base24-slack)  maintained by [Base24](https://github.com/Base24)
+- [Termux](https://github.com/Base24/base24-termux)  maintained by [Base24](https://github.com/Base24
 - [Windows Terminal](https://github.com/Base24/base24-windows-terminal)  maintained by [Base24](https://github.com/Base24)
 
 
@@ -104,7 +110,6 @@ To add your own template, submit a pull request to URL and add your repository t
 - [i3](https://github.com/khamer/base16-i3) maintained by [khamer](https://github.com/khamer)
 - [i3status](https://github.com/Eluminae/base16-i3status) maintained by [Eluminae](https://github.com/Eluminae)
 - [i3status-rust](https://github.com/mystfox/base16-i3status-rust) maintained by [mystfox](https://github.com/mystfox)
-- [iTerm2](https://github.com/martinlindhe/base16-iterm2) maintained by [martinlindhe](https://github.com/martinlindhe)
 - [Jetbrains](https://github.com/adilosa/base16-jetbrains) maintained by [adilosa](https://github.com/adilosa)
 - [JOE](https://github.com/jjjordan/base16-joe) maintained by [jjjordan](https://github.com/jjjordan)
 - [Kakoune](https://github.com/leira/base16-kakoune) maintained by [leira](https://github.com/leira)
@@ -126,7 +131,6 @@ To add your own template, submit a pull request to URL and add your repository t
 - [StumpWM](https://github.com/tpine/base16-stumpwm) maintained by [tpine](https://github.com/tpine)
 - [Sway](https://github.com/rkubosz/base16-sway) maintained by [rkubosz](https://github.com/rkubosz)
 - [Termite](https://github.com/khamer/base16-termite) maintained by [khamer](https://github.com/khamer)
-- [Termux](https://github.com/kdrag0n/base16-termux) maintained by [kdrag0n](https://github.com/kdrag0n)
 - [TextMate & Sublime Text](https://github.com/chriskempson/base16-textmate) maintained by [chriskempson](https://github.com/chriskempson)
 - [Tilix](https://github.com/karlding/base16-tilix) maintained by [karlding](https://github.com/karlding)
 - [Vim](https://github.com/chriskempson/base16-vim) maintained by [chriskempson](https://github.com/chriskempson)
@@ -207,8 +211,10 @@ To add your own scheme, submit a pull request to URL and add your repository to 
 
 ### Base24 0.1.0 (Feb 2020)
 
+#### Changes
+
 base00 through base0F are identical to base16. See the table below for the
-Base24 fallbacks:
+Base24 fall-backs:
 
 |Base24|Base16|
 |------|------|
@@ -221,12 +227,18 @@ Base24 fallbacks:
 |base16|base0D|
 |base17|base0E|
 
+#### Builders
+
 - [Base 24 Builder Python](https://github.com/Base24/base24-builder-python) maintained by [Base24](https://github.com/Base24)
 
 ### Base16 0.9.1 (Jun 15, 2019)
 
+#### Changes
+
 - Make baseXX-hex-bgr variables available to templates
 - Warn when a template file has been overwritten
+
+#### Builders
 
 - [Base 16 Builder Go](https://github.com/belak/base16-builder-go) maintained by [belak](https://github.com/belak)
 - [Base 16 Builder PHP](https://github.com/chriskempson/base16-builder-php) maintained by [chriskempson](https://github.com/chriskempson)
