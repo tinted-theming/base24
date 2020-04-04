@@ -80,7 +80,7 @@ that you can copy/ import into said application.
 
 To add your own template, submit a pull request to URL and add your repository to the list below. **Repository naming scheme: base24-\[template-name\]** (with dashes as separators).
 
-- [iTerm2](https://github.com/Base24/base24-iterm2)  maintained by [Base24](https://github.com/Base24
+- [iTerm2](https://github.com/Base24/base24-iterm2)  maintained by [Base24](https://github.com/Base24)
 - [KDEPlasma](https://github.com/Base24/base24-kdeplasma)  maintained by [Base24](https://github.com/Base24)
 - [Konsole](https://github.com/Base24/base24-konsole)  maintained by [Base24](https://github.com/Base24)
 - [Slack](https://github.com/Base24/base24-slack)  maintained by [Base24](https://github.com/Base24)
