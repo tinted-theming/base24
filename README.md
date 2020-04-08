@@ -80,6 +80,7 @@ that you can copy/ import into said application.
 
 To add your own template, submit a pull request to URL and add your repository to the list below. **Repository naming scheme: base24-\[template-name\]** (with dashes as separators).
 
+- [Gnome Terminal](https://github.com/Base24/base24-gnome-terminal)  maintained by [Base24](https://github.com/Base24)
 - [iTerm2](https://github.com/Base24/base24-iterm2)  maintained by [Base24](https://github.com/Base24)
 - [KDEPlasma](https://github.com/Base24/base24-kdeplasma)  maintained by [Base24](https://github.com/Base24)
 - [Konsole](https://github.com/Base24/base24-konsole)  maintained by [Base24](https://github.com/Base24)
@@ -102,7 +103,6 @@ To add your own template, submit a pull request to URL and add your repository t
 - [Dunst](https://github.com/khamer/base16-dunst) maintained by [khamer](https://github.com/khamer)
 - [Emacs](https://github.com/belak/base16-emacs) maintained by [belak](https://github.com/belak)
 - [fzf](https://github.com/nicodebo/base16-fzf) maintained by [nicodebo](https://github.com/nicodebo)
-- [Gnome Terminal](https://github.com/aaron-williamson/base16-gnome-terminal) maintained by [aaron-williamson](https://github.com/aaron-williamson)
 - [Godot](https://github.com/Calinou/base16-godot) maintained by [Calinou](https://github.com/Calinou)
 - [GTK+2](https://github.com/dawikur/base16-gtk2) maintained by [dawikur](https://github.com/dawikur)
 - [Highlight](https://github.com/bezhermoso/base16-highlight) maintained by [bezhermoso](https://github.com/bezhermoso)

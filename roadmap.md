@@ -23,6 +23,7 @@ wishes to contribute in any way to do so.
 |TODO|Planned TODO|
 |-|TODO add details to roadmap (A TODO of a TODO if you will)|
 |N/A|Not applicable - Likely because only base16 colours are used|
+|Help wanted|I do not have sufficient knowledge on theming for this application/ theme for this. |
 
 
 ## Schemes
@@ -39,17 +40,14 @@ ShortNote|Name|Current repo|Assigned to|
 |-|Atlas|https://github.com/ajlende/base16-atlas-scheme|-|
 |-|Black Metal|https://github.com/metalelf0/base16-black-metal-scheme|-|
 |-|Brush Trees|https://github.com/whiteabelincoln/base16-brushtrees-scheme|-|
-|TODO|Chalk|-|Base24 - Replace Base16 with Base24 tweak Base24 version|
 |-|Circus|https://github.com/stepchowfun/base16-circus-scheme|-|
 |-|Classic|https://github.com/detly/base16-classic-scheme|-|
 |-|Codeschool|https://github.com/blockloop/base16-codeschool-scheme|-|
 |-|Cupertino|https://github.com/Defman21/base16-cupertino|-|
 |-|Default|https://github.com/chriskempson/base16-default-scheme|-|
 |Compare with base24 version|Dracula|https://github.com/dracula/base16-dracula-scheme|Base24|
-|TODO|Flat|-|Base24 - Replace Base16 with Base24 version minor tweaks|
 |-|Fruit Soda|https://github.com/jozip/base16-fruit-soda-scheme|-|
 |-|Gruvbox|https://github.com/dawikur/base16-gruvbox-scheme|-|
-|TODO|Hardcore|https://github.com/callerc1/base16-hardcore-scheme|Base24 - Replace Base16 with Base24 version minor changes|
 |-|Helios|https://github.com/reyemxela/base16-helios-scheme|-|
 |-|Heetch|https://github.com/tealeg/base16-heetch-scheme|-|
 |-|Horizon|https://github.com/michael-ball/base16-horizon-scheme|-|
@@ -91,7 +89,8 @@ any contributions are most welcome
 
 ShortNote|Name|Current repo|Assigned to|
 |---|---|---|---|
-|I do not have sufficient knowledge on theming in GTK3 for this. Help wanted|GTK3|-|-|
+|Help wanted|GTK3|-|-|
+|Help wanted|GTK+2|https://github.com/dawikur/base16-gtk2|-|
 
 |Current repo|ShortNote|Name|Assigned to|
 |---|---|---|---|
@@ -108,9 +107,7 @@ ShortNote|Name|Current repo|Assigned to|
 |-|Dunst|https://github.com/khamer/base16-dunst|-|
 |-|Emacs|https://github.com/belak/base16-emacs|-|
 |-|fzf|https://github.com/nicodebo/base16-fzf|-|
-|TODO|Gnome Terminal|https://github.com/aaron-williamson/base16-gnome-terminal|Base24|
 |-|Godot|https://github.com/Calinou/base16-godot|-|
-|-|GTK+2|https://github.com/dawikur/base16-gtk2|-|
 |-|Highlight|https://github.com/bezhermoso/base16-highlight|-|
 |TODO|HTML Previews|https://github.com/chriskempson/base16-html-preview|Base24|
 |-|i3|https://github.com/khamer/base16-i3|-|
@@ -119,13 +116,13 @@ ShortNote|Name|Current repo|Assigned to|
 |-|Jetbrains|https://github.com/adilosa/base16-jetbrains|-|
 |-|JOE|https://github.com/jjjordan/base16-joe|-|
 |-|Kakoune|https://github.com/leira/base16-kakoune|-|
-|-|kitty|https://github.com/kdrag0n/base16-kitty|-|
+|TODO|kitty|https://github.com/kdrag0n/base16-kitty|Base24|
 |-|mako|https://github.com/Eluminae/base16-mako|-|
 |-|MinTTY|https://github.com/geoffstokes/base16-mintty|-|
 |-|MonoDevelop|https://github.com/netpyoung/base16-monodevelop|-|
 |-|Prism|https://github.com/atelierbram/base16-prism|-|
 |-|prompt-toolkit & ipython|https://github.com/memeplex/base16-prompt-toolkit|-|
-|-|PuTTY|https://github.com/benjojo/base-16-putty|-|
+|TODO|PuTTY|https://github.com/benjojo/base-16-putty|Base24|
 |N/A|Pygments|https://github.com/mohd-akram/base16-pygments|-|
 |-|QOwnNotes|https://github.com/themix-project/base16-template-qOwnNotes|-|
 |-|Qt Creator|https://github.com/ilpianista/base16-qtcreator|-|
