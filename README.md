@@ -153,6 +153,7 @@ To add your own scheme, submit a pull request to URL and add your repository to 
 - [Espresso](https://github.com/Base24/base24-espresso-scheme) maintained by [Base24](https://github.com/Base24)
 - [Framer](https://github.com/Base24/base24-framer-scheme) maintained by [Base24](https://github.com/Base24)
 - [Github](https://github.com/Base24/base24-github-scheme) maintained by [Base24](https://github.com/Base24)
+- [One Black](https://github.com/Base24/base24-one-black-scheme) maintained by [Base24](https://github.com/Base24)
 - [One Dark](https://github.com/Base24/base24-one-dark-scheme) maintained by [Base24](https://github.com/Base24)
 - [One Light](https://github.com/Base24/base24-one-light-scheme) maintained by [Base24](https://github.com/Base24)
 
