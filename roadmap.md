@@ -87,12 +87,21 @@ any contributions are most welcome
 
 ### Existing Base16 Templates
 
+GTK Theming is a complete mess and given that I do not use it myself isn't
+worth the time of trying to write CSS sheets for individual applications and the
+theme as a whole. One option might be to find and replace colours but matured
+projects seem a bit too complex for the scope of this project and simpler themes
+end up looking wrong or breaking entirely. Help would certainly be appreciated
+for these.
+
 ShortNote|Name|Current repo|Assigned to|
 |---|---|---|---|
 |Help wanted|GTK3|-|-|
 |Help wanted|GTK+2|https://github.com/dawikur/base16-gtk2|-|
+|Help wanted|XFCE4|-|-|
 
-|Current repo|ShortNote|Name|Assigned to|
+
+|ShortNote|Current repo|Name|Assigned to|
 |---|---|---|---|
 |-|Alacritty|https://github.com/aaron-williamson/base16-alacritty|-|
 |-|Binary Ninja|https://github.com/evanrichter/base16-binary-ninja|-|
@@ -138,11 +147,9 @@ ShortNote|Name|Current repo|Assigned to|
 |-|Tilix|https://github.com/karlding/base16-tilix|-|
 |-|Vim|https://github.com/chriskempson/base16-vim|-|
 |-|Vis|https://github.com/pshevtsov/base16-vis|-|
-|-|VSCode|https://github.com/golf1052/base16-vscode|-|
 |-|Waybar|https://github.com/mnussbaum/base16-waybar|-|
 |N/A|Windows Command Prompt|https://github.com/iamthad/base16-windows-command-prompt|-|
 |-|Xcode|https://github.com/kreeger/base16-xcode|-|
-|TODO|XFCE4 Terminal|https://github.com/afg984/base16-xfce4-terminal|Base24|
 |-|Xresources|https://github.com/binaryplease/base16-xresources|-|
 |-|Xshell|https://github.com/h404bi/base16-xshell|-|
 |-|zathura|https://github.com/nicodebo/base16-zathura|-|

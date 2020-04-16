@@ -86,7 +86,10 @@ To add your own template, submit a pull request to URL and add your repository t
 - [Konsole](https://github.com/Base24/base24-konsole)  maintained by [Base24](https://github.com/Base24)
 - [Slack](https://github.com/Base24/base24-slack)  maintained by [Base24](https://github.com/Base24)
 - [Termux](https://github.com/Base24/base24-termux)  maintained by [Base24](https://github.com/Base24)
+- [VSCode](https://github.com/Base24/base24-vscode)  maintained by [Base24](https://github.com/Base24)
 - [Windows Terminal](https://github.com/Base24/base24-windows-terminal)  maintained by [Base24](https://github.com/Base24)
+- [XFCE4 Terminal](https://github.com/Base24/base24-xfce4-terminal)  maintained by [Base24](https://github.com/Base24)
+
 
 
 ### Existing Base16 Templates
@@ -135,11 +138,9 @@ To add your own template, submit a pull request to URL and add your repository t
 - [Tilix](https://github.com/karlding/base16-tilix) maintained by [karlding](https://github.com/karlding)
 - [Vim](https://github.com/chriskempson/base16-vim) maintained by [chriskempson](https://github.com/chriskempson)
 - [Vis](https://github.com/pshevtsov/base16-vis) maintained by [pshevtsov](https://github.com/pshevtsov)
-- [VSCode](https://github.com/golf1052/base16-vscode) maintained by [golf1052](https://github.com/golf1052)
 - [Waybar](https://github.com/mnussbaum/base16-waybar) maintained by [mnussbaum](https://github.com/mnussbaum)
 - [Windows Command Prompt](https://github.com/iamthad/base16-windows-command-prompt) maintained by [iamthad](https://github.com/iamthad)
 - [Xcode](https://github.com/kreeger/base16-xcode) maintained by [kreeger](https://github.com/kreeger)
-- [XFCE4 Terminal](https://github.com/afg984/base16-xfce4-terminal) maintained by [afg984](https://github.com/afg984)
 - [Xresources](https://github.com/binaryplease/base16-xresources) maintained by [binaryplease](https://github.com/binaryplease)
 - [Xshell](https://github.com/h404bi/base16-xshell) maintained by [h404bi](https://github.com/h404bi)
 - [zathura](https://github.com/nicodebo/base16-zathura) maintained by [nicodebo](https://github.com/nicodebo)
