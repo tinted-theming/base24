@@ -45,7 +45,7 @@ lighter still.
 |![#](https://placehold.it/25/9196a1/000000?text=+)|base04|-|NA|Dark Foreground (Used for status bars)|
 |![#](https://placehold.it/25/abb2bf/000000?text=+)|base05|-|Foreground|Default Foreground, Caret, Delimiters, Operators|
 |![#](https://placehold.it/25/e6e6e6/000000?text=+)|base06|7|White|Light Foreground (Not often used)|
-|![#](https://placehold.it/25/ffffff/000000?text=+)|base07|15|Bright White|Lightest Foreground (Not often used)|
+|![#](https://placehold.it/25/ffffff/000000?text=+)|base07|15|Bright White|The Lightest Foreground (Not often used)|
 |![#](https://placehold.it/25/e06c75/000000?text=+)|base08|1|Red|Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted|
 |![#](https://placehold.it/25/d19a66/000000?text=+)|base09|3|Yellow|Integers, Boolean, Constants, XML Attributes, Markup Link Url|
 |![#](https://placehold.it/25/e5c07b/000000?text=+)|base0A|~11|NA|Classes, Markup Bold, Search Text Background|
@@ -55,7 +55,7 @@ lighter still.
 |![#](https://placehold.it/25/c678dd/000000?text=+)|base0E|5|Purple|Keywords, Storage, Selector, Markup Italic, Diff Changed|
 |![#](https://placehold.it/25/be5046/000000?text=+)|base0F|-|NA|Deprecated|
 |![#](https://placehold.it/25/21252b/000000?text=+)|base10|-|NA|Darker Background|
-|![#](https://placehold.it/25/181a1f/000000?text=+)|base11|-|NA|Darkest Background|
+|![#](https://placehold.it/25/181a1f/000000?text=+)|base11|-|NA|The Darkest Background|
 |![#](https://placehold.it/25/ff7b86/000000?text=+)|base12|9|Bright Red|NA|
 |![#](https://placehold.it/25/efb074/000000?text=+)|base13|11|Bright Yellow|NA|
 |![#](https://placehold.it/25/b1e18b/000000?text=+)|base14|10|Bright Green|NA|

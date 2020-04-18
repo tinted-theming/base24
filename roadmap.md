@@ -3,27 +3,19 @@
 ## Foreword
 
 The intention of this project is as follows:
-- To provide the means of creating one colour pallette for multiple applications
-- To provide templates for said applications
+- Provide the means of creating one colour palette for multiple applications
+- Provide templates for said applications
 - To provide the means to combine those colours and templates to produce a
 useable theme
-- To provide the end user with easy access to these themes so they can apply
+- Provide the end user with easy access to these themes, so they can apply
 them as needed
-- To link to a number of these schemes and templates
-- To convert a number of base16 schemes and templates to base24 schemes and
+- Link to a number of these schemes and templates
+- Convert a number of base16 schemes and templates to base24 schemes and
 templates where beneficial (for example if a template has no need to use the
-extended pallette then it would be pointless to duplicate work)
+extended palette then it would be pointless to duplicate work)
 
 Currently, Base24 has one participant. I would certainly encourage anyone who
 wishes to contribute in any way to do so.
-
-
-|Key:| |
-|---|---|
-|TODO|Planned TODO|
-|-|TODO add details to roadmap (A TODO of a TODO if you will)|
-|N/A|Not applicable - Likely because only base16 colours are used|
-|Help wanted|I do not have sufficient knowledge on theming for this application/ theme for this. |
 
 
 ## Schemes
@@ -32,51 +24,49 @@ Popular schemes have the highest priority such as those used in popular terminal
 themes
 
 
-### Existing Base16 Schemes
+### Base16 Schemes Parity (21)
 
-ShortNote|Name|Current repo|Assigned to|
-|---|---|---|---|
-|-|Atelier|https://github.com/atelierbram/base16-atelier-schemes|-|
-|-|Atlas|https://github.com/ajlende/base16-atlas-scheme|-|
-|-|Black Metal|https://github.com/metalelf0/base16-black-metal-scheme|-|
-|-|Brush Trees|https://github.com/whiteabelincoln/base16-brushtrees-scheme|-|
-|-|Circus|https://github.com/stepchowfun/base16-circus-scheme|-|
-|-|Classic|https://github.com/detly/base16-classic-scheme|-|
-|-|Codeschool|https://github.com/blockloop/base16-codeschool-scheme|-|
-|-|Cupertino|https://github.com/Defman21/base16-cupertino|-|
-|-|Default|https://github.com/chriskempson/base16-default-scheme|-|
-|-|Fruit Soda|https://github.com/jozip/base16-fruit-soda-scheme|-|
-|-|Gruvbox|https://github.com/dawikur/base16-gruvbox-scheme|-|
-|-|Helios|https://github.com/reyemxela/base16-helios-scheme|-|
-|-|Heetch|https://github.com/tealeg/base16-heetch-scheme|-|
-|-|Horizon|https://github.com/michael-ball/base16-horizon-scheme|-|
-|-|iA|https://github.com/aramisgithub/base16-ia-scheme|-|
-|-|Icy|https://github.com/icyphox/base16-icy-scheme|-|
-|-|Materia|https://github.com/Defman21/base16-materia|-|
-|-|Material Theme|https://github.com/ntpeters/base16-materialtheme-scheme|-|
-|-|Material Vivid|https://github.com/joshyrobot/base16-material-vivid-scheme|-|
-|-|Mellow|https://github.com/gidsi/base16-mellow-scheme|-|
-|-|Mexico-Light|https://github.com/drzel/base16-mexico-light-scheme|-|
-|-|Nord|https://github.com/8-uh/base16-nord-scheme|-|
-|-|Nova|https://github.com/gessig/base16-nova-scheme|-|
-|-|Outrun|https://github.com/hugodelahousse/base16-outrun-schemes|-|
-|-|PaperColor|https://github.com/jonleopard/base16-papercolor-scheme|-|
-|-|Porple|https://github.com/AuditeMarlow/base16-porple-scheme|-|
-|-|Purpledream|https://github.com/archmalet/base16-purpledream-scheme|-|
-|-|Rebecca|https://github.com/vic/base16-rebecca|-|
-|-|Sandcastle|https://github.com/gessig/base16-sandcastle-scheme|-|
-|-|Snazzy|https://github.com/h404bi/base16-snazzy-scheme|-|
-|-|Solarflare|https://github.com/mnussbaum/base16-solarflare-scheme|-|
-|-|Solarized|https://github.com/aramisgithub/base16-solarized-scheme|-|
-|-|Summercamp|https://github.com/zoefiri/base16-summercamp|-|
-|-|Summerfruit|https://github.com/cscorley/base16-summerfruit-scheme|-|
-|-|Synth Midnight|https://github.com/michael-ball/base16-synth-midnight-scheme|-|
-|-|Tomorrow|https://github.com/chriskempson/base16-tomorrow-scheme|-|
-|-|Twilight|https://github.com/hartbit/base16-twilight-scheme|-|
-|-|Unikitty|https://github.com/joshwlewis/base16-unikitty|-|
-|-|Woodland|https://github.com/jcornwall/base16-woodland-scheme|-|
-|-|Zenburn|https://github.com/elnawe/base16-zenburn-scheme|-|
-|-|XCode Dust|https://github.com/gonsie/base16-xcode-dusk-scheme|-|
+- [ ] Atelier
+- [ ] Atlas
+- [ ] Black Metal
+- [ ] Brush Trees
+- [ ] Circus
+- [ ] Classic
+- [ ] Codeschool
+- [ ] Cupertino
+- [ ] Default
+- [ ] Fruit Soda
+- [ ] Gruvbox
+- [ ] Helios
+- [ ] Heetch
+- [ ] Horizon
+- [ ] iA
+- [ ] Icy
+- [ ] Materia
+- [ ] Material Theme
+- [ ] Material Vivid
+- [ ] Mellow
+- [ ] Mexico-Light
+- [ ] Nord
+- [ ] Nova
+- [ ] Outrun
+- [ ] PaperColor
+- [ ] Porple
+- [ ] Purpledream
+- [ ] Rebecca
+- [ ] Sandcastle
+- [ ] Snazzy
+- [ ] Solarflare
+- [ ] Solarized
+- [ ] Summercamp
+- [ ] Summerfruit
+- [ ] Synth Midnight
+- [ ] Tomorrow
+- [ ] Twilight
+- [ ] Unikitty
+- [ ] Woodland
+- [ ] Zenburn
+- [ ] XCode Dust
 
 
 ## Templates
@@ -84,7 +74,10 @@ ShortNote|Name|Current repo|Assigned to|
 Terminal templates have the highest immediate priority - though as before
 any contributions are most welcome
 
-### Existing Base16 Templates
+### Help Wanted
+
+I do not have sufficient knowledge on theming for this application/ theme for
+this.
 
 GTK Theming is a complete mess and given that I do not use it myself isn't
 worth the time of trying to write CSS sheets for individual applications and the
@@ -93,67 +86,107 @@ projects seem a bit too complex for the scope of this project and simpler themes
 end up looking wrong or breaking entirely. Help would certainly be appreciated
 for these.
 
-ShortNote|Name|Current repo|Assigned to|
-|---|---|---|---|
-|Help wanted|GTK3|-|-|
-|Help wanted|GTK+2|https://github.com/dawikur/base16-gtk2|-|
-|Help wanted|XFCE4|-|-|
+- [ ] GTK3
+- [ ] GTK+2
+- [ ] XFCE4
 
+### Dracula Parity (58)
 
-|ShortNote|Current repo|Name|Assigned to|
-|---|---|---|---|
-|-|Alacritty|https://github.com/aaron-williamson/base16-alacritty|-|
-|-|Binary Ninja|https://github.com/evanrichter/base16-binary-ninja|-|
-|-|Blink|https://github.com/niklaas/base16-blink|-|
-|-|C Header|https://github.com/m1sports20/base16-c_header|-|
-|-|ConCfg|https://github.com/h404bi/base16-concfg|-|
-|-|ConEmu|https://github.com/martinlindhe/base16-conemu|-|
-|-|Console2|https://github.com/AFulgens/base16-console2|-|
-|-|ConsoleZ|https://github.com/AFulgens/base16-consolez|-|
-|-|Crosh|https://github.com/philj56/base16-crosh|-|
-|-|Dunst|https://github.com/khamer/base16-dunst|-|
-|-|Emacs|https://github.com/belak/base16-emacs|-|
-|-|fzf|https://github.com/nicodebo/base16-fzf|-|
-|-|Godot|https://github.com/Calinou/base16-godot|-|
-|N/A|Highlight|https://github.com/bezhermoso/base16-highlight|-|
-|-|i3|https://github.com/khamer/base16-i3|-|
-|-|i3status|https://github.com/Eluminae/base16-i3status|-|
-|-|i3status-rust|https://github.com/mystfox/base16-i3status-rust|-|
-|-|Jetbrains|https://github.com/adilosa/base16-jetbrains|-|
-|-|JOE|https://github.com/jjjordan/base16-joe|-|
-|-|Kakoune|https://github.com/leira/base16-kakoune|-|
-|-|mako|https://github.com/Eluminae/base16-mako|-|
-|-|MinTTY|https://github.com/geoffstokes/base16-mintty|-|
-|-|MonoDevelop|https://github.com/netpyoung/base16-monodevelop|-|
-|-|Prism|https://github.com/atelierbram/base16-prism|-|
-|-|prompt-toolkit & ipython|https://github.com/memeplex/base16-prompt-toolkit|-|
-|TODO|PuTTY|https://github.com/benjojo/base-16-putty|Base24|
-|N/A|Pygments|https://github.com/mohd-akram/base16-pygments|-|
-|-|QOwnNotes|https://github.com/themix-project/base16-template-qOwnNotes|-|
-|-|Qt Creator|https://github.com/ilpianista/base16-qtcreator|-|
-|-|qutebrowser|https://github.com/theova/base16-qutebrowser|-|
-|-|Rofi|https://gitlab.com/0xdec/base16-rofi|-|
-|-|Scide|https://github.com/brunoro/base16-scide|-|
-|N/A|Shell|https://github.com/chriskempson/base16-shell|-|
-|-|st|https://github.com/honza/base16-st|-|
-|-|StumpWM|https://github.com/tpine/base16-stumpwm|-|
-|-|Sway|https://github.com/rkubosz/base16-sway|-|
-|-|Termite|https://github.com/khamer/base16-termite|-|
-|-|TextMate & Sublime Text|https://github.com/chriskempson/base16-textmate|-|
-|-|Tilix|https://github.com/karlding/base16-tilix|-|
-|-|Vim|https://github.com/chriskempson/base16-vim|-|
-|-|Vis|https://github.com/pshevtsov/base16-vis|-|
-|-|Waybar|https://github.com/mnussbaum/base16-waybar|-|
-|N/A|Windows Command Prompt|https://github.com/iamthad/base16-windows-command-prompt|-|
-|-|Xcode|https://github.com/kreeger/base16-xcode|-|
-|-|Xresources|https://github.com/binaryplease/base16-xresources|-|
-|-|Xshell|https://github.com/h404bi/base16-xshell|-|
-|-|zathura|https://github.com/nicodebo/base16-zathura|-|
+- [ ] Alacritty
+- [ ] Alfred
+- [ ] Atom
+- [ ] Blender
+- [ ] bspwm
+- [ ] Chrome
+- [ ] Cmder
+- [ ] Coda
+- [ ] ConEmu
+- [ ] CotEditor
+- [ ] Couscous
+- [ ] DuckDuckGo
+- [ ] Emacs
+- [ ] Firefox
+- [ ] Fish
+- [ ] Fluent Terminal
+- [ ] Geany
+- [ ] Gedit
+- [ ] Gitk
+- [ ] Godot
+- [ ] Highlight.js
+- [ ] i3
+- [ ] Insomnia
+- [ ] Javadoc
+- [ ] jGrasp
+- [ ] Kakoune
+- [ ] Kate
+- [ ] Light Table
+- [ ] LightPaper
+- [ ] LimeChat
+- [ ] MacDown
+- [ ] Mattermost
+- [ ] Mintty
+- [ ] MobaXterm
+- [ ] MonoDevelop
+- [ ] Notepad++
+- [ ] Powershell
+- [ ] Pygments
+- [ ] Qt Creator
+- [ ] Quassel
+- [ ] Quiver
+- [ ] Sequel Pro
+- [ ] Sublime
+- [ ] Tabletop Simulator
+- [ ] Telegram
+- [ ] Termite
+- [ ] Textmate
+- [ ] Tilix
+- [ ] Typora
+- [ ] Ulauncher
+- [ ] Visual Studio
+- [ ] Vivaldi
+- [ ] Wing
+- [ ] Wofi
+- [ ] Wordpress
+- [ ] Wox
+- [ ] Xcode
+- [ ] Xresources
+
+### Base16 Templates Parity (30)
+
+- [ ] Binary Ninja
+- [ ] Blink
+- [ ] C Header
+- [ ] ConCfg
+- [ ] Console2
+- [ ] ConsoleZ
+- [ ] Crosh
+- [ ] Dunst
+- [ ] fzf
+- [ ] i3status
+- [ ] i3status-rust
+- [ ] Jetbrains
+- [ ] JOE
+- [ ] Kakoune
+- [ ] Prism
+- [ ] prompt-toolkit & ipython
+- [ ] PuTTY
+- [ ] QOwnNotes
+- [ ] qutebrowser
+- [ ] Rofi
+- [ ] Scide
+- [ ] Shell
+- [ ] st
+- [ ] StumpWM
+- [ ] Sway
+- [ ] Vim
+- [ ] Vis
+- [ ] Waybar
+- [ ] Xshell
+- [ ] zathura
 
 ## Improving this document
 
 Improvements or suggestions to improve are always welcome, feel free to open an
 issue or pull request.
 
-In addition to this, I will endeavour to keep this document up to date and to
-complete some of those TODOs of TODOs
+In addition to this, I will endeavour to keep this document up to date

@@ -1,8 +1,12 @@
 # File Guidelines
-Base24 specifies the format of two types of files: scheme files, used for defining the colors that are to be assigned to a template when processed by a Builder, and config files, used by templates to pass information to a Builder when using a template.
+Base24 specifies the format of two types of files: scheme files, used for
+defining the colours that are to be assigned to a template when processed
+by a Builder, and config files, used by templates to pass information to a
+Builder when using a template.
 
 ## Template Config Files
-Template files reside in a templates `templates` folder and have the name `config.yaml`. These files have the following example structure:
+Template files reside in a `templates` folder and have the name
+`config.yaml`. These files have the following example structure:
 
 ```yaml
 default:
@@ -14,7 +18,13 @@ additional:
 	output: output-directory-name
 ```
 
-This example specifies that a Builder is to parse two template files: `templates/default.mustache` and `templates/additional.mustache`. `extension` defines the extension of the file that will be produced by a Builder, e.g. `base24-default-dark.file-extension`, and `output` defines the output directory that will be created within the templates root directory where the processed templates will be created, e.g. `output-directory-name/base24-default-dark.file-extension`.
+This example specifies that a Builder is to parse two template files:
+`templates/default.mustache` and `templates/additional.mustache`. `extension`
+defines the extension of the file that will be produced by a Builder, e.g.
+`base24-default-dark.file-extension`, and `output` defines the output directory
+that will be created within the templates root directory where the processed
+templates will be created, e.g.
+`output-directory-name/base24-default-dark.file-extension`.
 
 ## Scheme Files
 Scheme files have the following example structure:
@@ -49,4 +59,4 @@ base17: "e48bff"
 ```
 
 
-Hexadecimal color values should not be preceded by a "#".
+Hexadecimal colour values should not be preceded by a "#".
