@@ -45,7 +45,6 @@ ShortNote|Name|Current repo|Assigned to|
 |-|Codeschool|https://github.com/blockloop/base16-codeschool-scheme|-|
 |-|Cupertino|https://github.com/Defman21/base16-cupertino|-|
 |-|Default|https://github.com/chriskempson/base16-default-scheme|-|
-|Compare with base24 version|Dracula|https://github.com/dracula/base16-dracula-scheme|Base24|
 |-|Fruit Soda|https://github.com/jozip/base16-fruit-soda-scheme|-|
 |-|Gruvbox|https://github.com/dawikur/base16-gruvbox-scheme|-|
 |-|Helios|https://github.com/reyemxela/base16-helios-scheme|-|

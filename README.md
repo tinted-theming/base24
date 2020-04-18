@@ -171,7 +171,6 @@ To add your own scheme, submit a pull request to URL and add your repository to 
 - [Codeschool](https://github.com/blockloop/base16-codeschool-scheme) maintained by [blockloop](https://github.com/blockloop)
 - [Cupertino](https://github.com/Defman21/base16-cupertino) maintained by [Defman21](https://github.com/Defman21)
 - [Default](https://github.com/chriskempson/base16-default-scheme) maintained by [chriskempson](https://github.com/chriskempson)
-- [Dracula](https://github.com/dracula/base16-dracula-scheme) maintained by [mikebarkmin](https://github.com/mikebarkmin)
 - [Fruit Soda](https://github.com/jozip/base16-fruit-soda-scheme) maintained by [jozip](https://github.com/jozip)
 - [Gruvbox](https://github.com/dawikur/base16-gruvbox-scheme) maintained by [dawikur](https://github.com/dawikur)
 - [Hardcore](https://github.com/callerc1/base16-hardcore-scheme) maintained by [callerc1](https://github.com/callerc1)
