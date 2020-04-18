@@ -112,13 +112,11 @@ ShortNote|Name|Current repo|Assigned to|
 |-|Console2|https://github.com/AFulgens/base16-console2|-|
 |-|ConsoleZ|https://github.com/AFulgens/base16-consolez|-|
 |-|Crosh|https://github.com/philj56/base16-crosh|-|
-|TODO|CSS, Less, Sass/Scss & Stylus|https://github.com/samme/base16-styles|Base24|
 |-|Dunst|https://github.com/khamer/base16-dunst|-|
 |-|Emacs|https://github.com/belak/base16-emacs|-|
 |-|fzf|https://github.com/nicodebo/base16-fzf|-|
 |-|Godot|https://github.com/Calinou/base16-godot|-|
-|-|Highlight|https://github.com/bezhermoso/base16-highlight|-|
-|TODO|HTML Previews|https://github.com/chriskempson/base16-html-preview|Base24|
+|N/A|Highlight|https://github.com/bezhermoso/base16-highlight|-|
 |-|i3|https://github.com/khamer/base16-i3|-|
 |-|i3status|https://github.com/Eluminae/base16-i3status|-|
 |-|i3status-rust|https://github.com/mystfox/base16-i3status-rust|-|
@@ -138,7 +136,7 @@ ShortNote|Name|Current repo|Assigned to|
 |-|qutebrowser|https://github.com/theova/base16-qutebrowser|-|
 |-|Rofi|https://gitlab.com/0xdec/base16-rofi|-|
 |-|Scide|https://github.com/brunoro/base16-scide|-|
-|-|Shell|https://github.com/chriskempson/base16-shell|-|
+|N/A|Shell|https://github.com/chriskempson/base16-shell|-|
 |-|st|https://github.com/honza/base16-st|-|
 |-|StumpWM|https://github.com/tpine/base16-stumpwm|-|
 |-|Sway|https://github.com/rkubosz/base16-sway|-|

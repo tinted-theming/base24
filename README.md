@@ -80,7 +80,9 @@ that you can copy/ import into said application.
 
 To add your own template, submit a pull request to URL and add your repository to the list below. **Repository naming scheme: base24-\[template-name\]** (with dashes as separators).
 
+- [CSS etc](https://github.com/Base24/base24-css-etc)  maintained by [Base24](https://github.com/Base24)
 - [Gnome Terminal](https://github.com/Base24/base24-gnome-terminal)  maintained by [Base24](https://github.com/Base24)
+- [HTML](https://github.com/Base24/base24-html)  maintained by [Base24](https://github.com/Base24)
 - [iTerm2](https://github.com/Base24/base24-iterm2)  maintained by [Base24](https://github.com/Base24)
 - [KDEPlasma](https://github.com/Base24/base24-kdeplasma)  maintained by [Base24](https://github.com/Base24)
 - [Konsole](https://github.com/Base24/base24-konsole)  maintained by [Base24](https://github.com/Base24)
@@ -102,14 +104,12 @@ To add your own template, submit a pull request to URL and add your repository t
 - [Console2](https://github.com/AFulgens/base16-console2) maintained by [AFulgens](https://github.com/AFulgens)
 - [ConsoleZ](https://github.com/AFulgens/base16-consolez) maintained by [AFulgens](https://github.com/AFulgens)
 - [Crosh](https://github.com/philj56/base16-crosh) maintained by [philj56](https://github.com/philj56)
-- [CSS, Less, Sass/Scss & Stylus](https://github.com/samme/base16-styles) maintained by [samme](https://github.com/samme)
 - [Dunst](https://github.com/khamer/base16-dunst) maintained by [khamer](https://github.com/khamer)
 - [Emacs](https://github.com/belak/base16-emacs) maintained by [belak](https://github.com/belak)
 - [fzf](https://github.com/nicodebo/base16-fzf) maintained by [nicodebo](https://github.com/nicodebo)
 - [Godot](https://github.com/Calinou/base16-godot) maintained by [Calinou](https://github.com/Calinou)
 - [GTK+2](https://github.com/dawikur/base16-gtk2) maintained by [dawikur](https://github.com/dawikur)
 - [Highlight](https://github.com/bezhermoso/base16-highlight) maintained by [bezhermoso](https://github.com/bezhermoso)
-- [HTML Previews](https://github.com/chriskempson/base16-html-preview) maintained by [chriskempson](https://github.com/chriskempson)
 - [i3](https://github.com/khamer/base16-i3) maintained by [khamer](https://github.com/khamer)
 - [i3status](https://github.com/Eluminae/base16-i3status) maintained by [Eluminae](https://github.com/Eluminae)
 - [i3status-rust](https://github.com/mystfox/base16-i3status-rust) maintained by [mystfox](https://github.com/mystfox)
