@@ -83,6 +83,7 @@ To add your own template, submit a pull request to URL and add your repository t
 - [Gnome Terminal](https://github.com/Base24/base24-gnome-terminal)
 - [HTML](https://github.com/Base24/base24-html)
 - [iTerm2](https://github.com/Base24/base24-iterm2)
+- [Kate](https://github.com/Base24/base24-kate)
 - [KDEPlasma](https://github.com/Base24/base24-kdeplasma)
 - [Kitty](https://github.com/Base24/base24-kitty-te)
 - [Konsole](https://github.com/Base24/base24-konsole)
