@@ -178,7 +178,7 @@ To add your own scheme, submit a pull request to URL and add your repository to 
 - [Circus](https://github.com/stepchowfun/base16-circus-scheme)
 - [Classic](https://github.com/detly/base16-classic-scheme)
 - [Codeschool](https://github.com/blockloop/base16-codeschool-scheme)
-- [colors](https://github.com/hakatashi/base16-colors-scheme
+- [colors](https://github.com/hakatashi/base16-colors-scheme)
 - [Cupertino](https://github.com/Defman21/base16-cupertino)
 - [darkmoss](https://github.com/avanzzzi/base16-darkmoss-scheme)
 - [darkviolet](https://github.com/ruler501/base16-darkviolet-scheme)
