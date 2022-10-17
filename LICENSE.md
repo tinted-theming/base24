@@ -1,5 +1,6 @@
 # MIT License
 
+Copyright (c) 2022 Tinted Theming (https://github.com/tinted-theming)
 Copyright (C) 2020 FredHappyface
 Copyright (C) 2012 [Chris Kempson](http://chriskempson.com)
 
