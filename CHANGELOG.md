@@ -2,20 +2,39 @@
 All major and minor version changes will be documented in this file. Details of
 patch-level version changes can be found in [commit messages](../../commits/master).
 
-## 2020/04/18
-- Improved quality of language
-- Simplified documents (swapped out tables for simple check lists)
-- Removed 'maintained by \[author\]' from the readme (the author can easily be
-identified from the project link or the project license file)
-- Added roadmap for template parity with Dracula and Base16
 
-## 2020/04/03
-- Added ANSI colours to the styling table (this will make developing some
-terminal themes *far* easier)
+### Base24 0.1.0 (Feb 2020)
 
-## 2020/03/28
-- Added changelog, roadmap and info on file structures providing more
-information on the spec.
+#### Changes
 
-## 2020/02/xx
-- Builder 2020.1
+base00 through base0F are identical to base16. See the table below for the
+Base24 fall-backs:
+
+| Base24 | Base16 |
+| ------ | ------ |
+| base10 | base00 |
+| base11 | base00 |
+| base12 | base08 |
+| base13 | base0A |
+| base14 | base0B |
+| base15 | base0C |
+| base16 | base0D |
+| base17 | base0E |
+
+#### Builders
+
+- [Base24 Builder Python](https://github.com/Base24/base24-builder-python)
+
+### Base16 0.9.1 (Jun 15, 2019)
+
+#### Changes
+
+- Make baseXX-hex-bgr variables available to templates
+- Warn when a template file has been overwritten
+
+#### Builders
+
+- [Base16 Builder Go](https://github.com/belak/base16-builder-go)
+- [Base16 Builder PHP](https://github.com/chriskempson/base16-builder-php)
+- [Base16 Builder Python](https://github.com/InspectorMustache/base16-builder-python)
+- [Base16 Builder Rust](https://github.com/ilpianista/base16-builder-rust)

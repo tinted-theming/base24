@@ -1,51 +1,43 @@
-[![Github top language](https://img.shields.io/github/languages/top/Base24/Base24.svg?style=for-the-badge)](../../)
-[![Repository size](https://img.shields.io/github/repo-size/Base24/Base24.svg?style=for-the-badge)](../../)
-[![Issues](https://img.shields.io/github/issues/Base24/Base24.svg?style=for-the-badge)](../../issues)
-[![License](https://img.shields.io/github/license/Base24/Base24.svg?style=for-the-badge)](/LICENSE.md)
-[![Commit activity](https://img.shields.io/github/commit-activity/m/Base24/Base24.svg?style=for-the-badge)](../../commits/master)
-[![Last commit](https://img.shields.io/github/last-commit/Base24/Base24.svg?style=for-the-badge)](../../commits/master)
+# Tinted Theming: all your themes, everywhere.
+<img alt="Color wheel" src="./color_wheel.png" width="100" align="right" style="padding-top:0.6rem;">
 
-<!-- omit in toc -->
-# Base24
-
-<img src="readme-assets/icons/proj-icon.png" alt="Project Icon" width="100">
+ Style systems and smart build tooling for crafting high fidelity color schemes and easily using them in all your favorite apps.  Originally based on the amazing work of [Chris Kempson](https://github.com/chriskempson/) and his [Base16](https://github.com/chriskempson/base16) system.
 
 
-- [Reason for this repo](#reason-for-this-repo)
-- [Compatibility](#compatibility)
-- [Why Base24/ Base16 is useful](#why-base24-base16-is-useful)
-- [Documentation](#documentation)
-- [Template Repositories](#template-repositories)
-	- [Existing Base16 Templates](#existing-base16-templates)
-- [Scheme Repositories](#scheme-repositories)
-	- [Generated from existing themes](#generated-from-existing-themes)
-	- [Existing Base16 Schemes](#existing-base16-schemes)
-- [Builder Repositories](#builder-repositories)
-	- [Base24 0.1.0 (Feb 2020)](#base24-010-feb-2020)
-		- [Changes](#changes)
-		- [Builders](#builders)
-	- [Base16 0.9.1 (Jun 15, 2019)](#base16-091-jun-15-2019)
-		- [Changes](#changes-1)
-		- [Builders](#builders-1)
-- [Download](#download)
-	- [Clone](#clone)
-		- [Using The Command Line](#using-the-command-line)
-		- [Using GitHub Desktop](#using-github-desktop)
-	- [Download Zip File](#download-zip-file)
-- [Community Files](#community-files)
-	- [Licence](#licence)
-	- [Changelog](#changelog)
-	- [Code of Conduct](#code-of-conduct)
-	- [Contributing](#contributing)
-	- [Security](#security)
+- [Tinted Theming: all your themes, everywhere.](#tinted-theming-all-your-themes-everywhere)
+	- [Features](#features)
+	- [Base24 Compatibility](#base24-compatibility)
+	- [Documentation and Specification](#documentation-and-specification)
+		- [Scheme](#scheme)
+		- [Style](#style)
+		- [Builder](#builder)
+		- [Template](#template)
+	- [Supported Applications (Base24)](#supported-applications-base24)
+		- [Existing Base16 Templates (Base16)](#existing-base16-templates-base16)
+	- [Scheme Repositories](#scheme-repositories)
+		- [Generated from existing themes](#generated-from-existing-themes)
+		- [Existing Base16 Schemes](#existing-base16-schemes)
+	- [Builder Repositories](#builder-repositories)
+	- [Download](#download)
+		- [Clone](#clone)
+			- [Using The Command Line](#using-the-command-line)
+			- [Using GitHub Desktop](#using-github-desktop)
+		- [Download Zip File](#download-zip-file)
+	- [Community](#community)
+		- [Licence](#licence)
+		- [Changelog](#changelog)
+		- [Project Chat](#project-chat)
+		- [Credits](#credits)
 
-## Reason for this repo
+## Features
 
-Base16 doesn't provide bright colours that are used in terminal emulators. e.g.
-bright red. Base24 does. In addition to this, Base24 provides darker background
-variants. This will also be part of a GitHub organization.
+- Seamless builder support for _multiple_ style systems ([Base16](https://github.com/chriskempson/base16), [Base17](https://github.com/tinted-theming/base17), [Base24](https://github.com/tinted-theming/base24/), [BaseNext DRAFT](https://github.com/tinted-theming/basenext), etc.)
+- Over 230 beautiful and ready-to-use color schemes. [View the Gallery](https://tinted-theming.github.io/base16-gallery).
+- Over 70 supported GUI and terminal applications. [See the full list](#supported-applications-base24).
+- Allows end users to choose a color scheme and know it will be available _everywhere_.
+- Allows color scheme designers to craft a palette of colors once, instantly supporting for many different apps.
 
-## Compatibility
+## Base24 Compatibility
 The aim of this project is to offer compatibility with base16. The only
 limitation is that a base24 builder is needed for base24 templates.
 
@@ -56,26 +48,40 @@ limitation is that a base24 builder is needed for base24 templates.
 |Base16|⇒|Base24|:x:|:heavy_check_mark:|
 |Base24|⇒|Base24|:x:|:heavy_check_mark:|
 
+## Documentation and Specification
 
-Thank you to https://github.com/chriskempson/base16/ (MIT) for Base16
+The _builder_ and _styling_ specs detail how to compile _schemes_ and _templates_ into application specific configurations.
 
+### Scheme
 
-## Why Base24/ Base16 is useful
+A scheme is a fixed palette of named colors and (optionally) instructions for how those colors should be used by apps.
 
-Base24/ Base16 can be used to easily generate your favourite theme for your
-favourite application. Many of the template repositories provide theme files
-that you can copy/ import into said application.
+### Style
 
+A style guide provides rules governing how a scheme's palette should be applied within apps.  This means each color is used consistently for similar purposes across all your apps.  Individual styling guides often support different sized pallets and have different ideas about how those colors should be deployed.
 
+See the individual styling guides for more information on each:
 
-## Documentation
+- [Base16](https://github.com/tinted-theming/home/blob/main/styling.md) - the original, 16 colors with very fixed semantic meanings.
+- [Base17](https://github.com/tinted-theming/base17/blob/main/styling.md) - our evolution of Base16. It's still 16 colors, but far more power and flexibility to create higher fidelity themes and templates.
+- [Base24](https://github.com/tinted-theming/base24/blob/master/styling.md) **Hey that's this repo!** - an extra 8  colors for full ANSI support in your terminals.
+- [BaseNext DRAFT](https://github.com/tinted-theming/basenext) - as many colors as you want, along with the flexibility and complexity.
 
-- [Styling Guidelines](styling.md)
-- [Builder Guidelines](builder.md)
-- [File Guidelines](file.md)
-- [Roadmap/ TODO](roadmap.md)
+A scheme is defined using a [YAML](https://yaml.org/) file. The file specification is in the [Builder Guidelines](/builder.md#schemes-repository).
 
-## Template Repositories
+### Builder
+
+A builder is a build tool used by various template repositories to generate files based on scheme file and template file.
+
+- [Builder Guidelines](/builder.md)
+
+### Template
+
+A template describes how a scheme should be transformed to support a specific application.  A template repository defines a template file, then uses a builder to generate application specific files using the template.
+
+Templates often include ready-to-use pre-built versions of every scheme. These are typically installed directly by end users to use the schemes in different applications.
+
+## Supported Applications (Base24)
 
 To add your own template, submit a pull request to URL and add your repository to the list below. **Repository naming scheme: base24-\[template-name\]** (with dashes as separators).
 
@@ -95,9 +101,8 @@ To add your own template, submit a pull request to URL and add your repository t
 - [Windows Terminal](https://github.com/Base24/base24-windows-terminal)
 - [XFCE4 Terminal](https://github.com/Base24/base24-xfce4-terminal)
 
+### Existing Base16 Templates (Base16)
 
-
-### Existing Base16 Templates
 - [Alacritty](https://github.com/aaron-williamson/base16-alacritty)
 - [Binary Ninja](https://github.com/evanrichter/base16-binary-ninja)
 - [Blink](https://github.com/niklaas/base16-blink)
@@ -168,9 +173,11 @@ To add your own scheme, submit a pull request to URL and add your repository to 
 - [One Light](https://github.com/Base24/base24-one-light-scheme)
 
 ### Generated from existing themes
+
 - [Generated from Iterm2 themes](https://github.com/Base24/base24-mbadolato-iterm2-color-schemes)
 
 ### Existing Base16 Schemes
+
 - [Atelier](https://github.com/atelierbram/base16-atelier-schemes)
 - [Atlas](https://github.com/ajlende/base16-atlas-scheme)
 - [Black Metal](https://github.com/metalelf0/base16-black-metal-scheme)
@@ -232,59 +239,27 @@ To add your own scheme, submit a pull request to URL and add your repository to 
 
 **Repository naming scheme: base24-builder-\[language\]** (with dashes as separators). The separate headings are the latest versions of the spec supported by each builder.
 
-### Base24 0.1.0 (Feb 2020)
-
-#### Changes
-
-base00 through base0F are identical to base16. See the table below for the
-Base24 fall-backs:
-
-|Base24|Base16|
-|------|------|
-|base10|base00|
-|base11|base00|
-|base12|base08|
-|base13|base0A|
-|base14|base0B|
-|base15|base0C|
-|base16|base0D|
-|base17|base0E|
-
-#### Builders
-
-- [Base24 Builder Python](https://github.com/Base24/base24-builder-python)
-
-### Base16 0.9.1 (Jun 15, 2019)
-
-#### Changes
-
-- Make baseXX-hex-bgr variables available to templates
-- Warn when a template file has been overwritten
-
-#### Builders
-
-- [Base16 Builder Go](https://github.com/belak/base16-builder-go)
-- [Base16 Builder PHP](https://github.com/chriskempson/base16-builder-php)
-- [Base16 Builder Python](https://github.com/InspectorMustache/base16-builder-python)
-- [Base16 Builder Rust](https://github.com/ilpianista/base16-builder-rust)
-
-
 ## Download
+
 ### Clone
+
 #### Using The Command Line
+
 1. Press the Clone or download button in the top right
 2. Copy the URL (link)
 3. Open the command line and change directory to where you wish to
 clone to
 4. Type 'git clone' followed by URL in step 2
+
 ```bash
-$ git clone https://github.com/Base24/Base24
+git clone https://github.com/tinted-theming/Base24
 ```
 
 More information can be found at
 <https://help.github.com/en/articles/cloning-a-repository>
 
 #### Using GitHub Desktop
+
 1. Press the Clone or download button in the top right
 2. Click open in desktop
 3. Choose the path for where you want and click Clone
@@ -298,8 +273,8 @@ More information can be found at
 2. Extract the zip archive
 3. Copy/ move to the desired location
 
+## Community
 
-## Community Files
 ### Licence
 MIT License
 (See the [LICENSE](/LICENSE.md) for more information.)
@@ -307,15 +282,11 @@ MIT License
 ### Changelog
 See the [Changelog](/CHANGELOG.md) for more information.
 
-### Code of Conduct
-In the interest of fostering an open and welcoming environment, we
-as contributors and maintainers pledge to make participation in our
-project and our community a harassment-free experience for everyone.
-Please see the
-[Code of Conduct](https://github.com/Base24/.github/blob/master/CODE_OF_CONDUCT.md) for more information.
+### Project Chat
 
-### Contributing
-Contributions are welcome, please see the [Contributing Guidelines](https://github.com/Base24/.github/blob/master/CONTRIBUTING.md) for more information.
+Have something you want to discuss, but you're not sure it warrants an issue? Feel free to stop by the [#base16 channel](https://web.libera.chat/#base16) on [Libera Chat](https://libera.chat/) or the [bridged Matrix channel](https://matrix.to/#/#base16:libera.chat) to talk about it.
 
-### Security
-Thank you for improving the security of the project, please see the [Security Policy](https://github.com/Base24/.github/blob/master/SECURITY.md) for more information.
+### Credits
+
+- Thanks to [Chris Kempson](https://github.com/chriskempson) for the original concept and implementation.
+- Color wheel icon thanks to [Color icons created by Nikita Golubev - Flaticon](https://www.flaticon.com/free-icons/color).
