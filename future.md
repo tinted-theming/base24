@@ -60,6 +60,7 @@ output/[template_name_0]/[scheme_name_0]/data
 Support variations of the names as listed under styling (in parentheses)
 
 Support variations of the names supporting the following variations:
+
 ```none
 HEX
 	RGB
@@ -88,38 +89,64 @@ Be backwards compatible with Base24 0.1.0 and Base16 0.9.1
 
 ## Styling
 
-|One Dark|name|Ansi|Terminal|Text Editor|
-|---|---|---|---|---|
-|![#](https://placehold.it/25/21252b/000000?text=+)|bg_darkest|-|NA|The Darkest Background|
-|![#](https://placehold.it/25/282c34/000000?text=+)|bg_dark|-|Background|Darker Background|
-|![#](https://placehold.it/25/3f4451/000000?text=+)|bg (black)|0|Black|Default Background|
-|![#](https://placehold.it/25/4f5666/000000?text=+)|black_b|8|Bright Black|Selection Background|
-|![#](https://placehold.it/25/e6e6e6/000000?text=+)|fg (white)|7|White|Light Foreground|
-|![#](https://placehold.it/25/ffffff/000000?text=+)|fg_lightest (white_b)|15|Bright White|The Lightest Foreground|
-|![#](https://placehold.it/25/e06c75/000000?text=+)|red|1|Red|Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted|
-|![#](https://placehold.it/25/ff7b86/000000?text=+)|red_b|9|Bright Red|NA|
-|![#](https://placehold.it/25/98c379/000000?text=+)|green|2|Green|Strings, Inherited Class, Markup Code, Diff Inserted|
-|![#](https://placehold.it/25/b1e18b/000000?text=+)|green_b|10|Bright Green|NA|
-|![#](https://placehold.it/25/d19a66/000000?text=+)|yellow|3|Yellow|Integers, Boolean, Constants, XML Attributes, Markup Link Url|
-|![#](https://placehold.it/25/efb074/000000?text=+)|yellow_b|11|Bright Yellow|NA|
-|![#](https://placehold.it/25/61afef/000000?text=+)|blue|4|Blue|Functions, Methods, Attribute IDs, Headings|
-|![#](https://placehold.it/25/67cdff/000000?text=+)|blue_bright|12|Bright Blue|NA|
-|![#](https://placehold.it/25/c678dd/000000?text=+)|magenta(purple)|5|Purple|Keywords, Storage, Selector, Markup Italic, Diff Changed|
-|![#](https://placehold.it/25/e48bff/000000?text=+)|magenta_b (purple_b)|13|Bright Purple|NA|
-|![#](https://placehold.it/25/56b6c2/000000?text=+)|cyan|6|Cyan|Support, Regular Expressions, Escape Characters, Markup Quotes|
-|![#](https://placehold.it/25/63d4e0/000000?text=+)|cyan_b|14|Bright Cyan|N/A|
+$${\definecolor{bg_darkest}{RGB}{33,37,43}}$$
+$${\definecolor{bg_dark}{RGB}{40,44,52}}$$
+$${\definecolor{black}{RGB}{63,68,81}}$$
+$${\definecolor{black_b}{RGB}{79,86,102}}$$
+$${\definecolor{white}{RGB}{230,230,230}}$$
+$${\definecolor{white_b}{RGB}{255,255,255}}$$
+$${\definecolor{red}{RGB}{224,108,117}}$$
+$${\definecolor{red_b}{RGB}{255,123,134}}$$
+$${\definecolor{green}{RGB}{152,195,121}}$$
+$${\definecolor{green_b}{RGB}{177,225,139}}$$
+$${\definecolor{yellow}{RGB}{209,154,102}}$$
+$${\definecolor{yellow_b}{RGB}{239,176,116}}$$
+$${\definecolor{blue}{RGB}{97,175,239}}$$
+$${\definecolor{blue_b}{RGB}{103,205,255}}$$
+$${\definecolor{magenta}{RGB}{198,120,221}}$$
+$${\definecolor{magenta_b}{RGB}{228,139,255}}$$
+$${\definecolor{cyan}{RGB}{86,182,194}}$$
+$${\definecolor{cyan_b}{RGB}{99,212,224}}$$
+$${\definecolor{orange}{RGB}{215,132,96}}$$
+$${\definecolor{orange_b}{RGB}{222,154,124}}$$
+$${\definecolor{brown}{RGB}{153,73,73}}$$
+$${\definecolor{brown_b}{RGB}{191,92,92}}$$
+$${\definecolor{pink}{RGB}{233,150,157}}$$
+$${\definecolor{pink_b}{RGB}{238,175,180}}$$
+
+## One Dark
+
+|Name|Colour|HEX Code|RGB|
+|---|---|---|---|
+|bg_darkest|$${\colorbox{bg_darkest}{...}}$$|21252b|33,37,43|
+|bg_dark|$${\colorbox{bg_dark}{...}}$$|282c34|40,44,52|
+|black|$${\colorbox{black}{...}}$$|3f4451|63,68,81|
+|black_b|$${\colorbox{black_b}{...}}$$|4f5666|79,86,102|
+|white|$${\colorbox{white}{...}}$$|e6e6e6|230,230,230|
+|white_b|$${\colorbox{white_b}{...}}$$|ffffff|255,255,255|
+|red|$${\colorbox{red}{...}}$$|e06c75|224,108,117|
+|red_b|$${\colorbox{red_b}{...}}$$|ff7b86|255,123,134|
+|green|$${\colorbox{green}{...}}$$|98c379|152,195,121|
+|green_b|$${\colorbox{green_b}{...}}$$|b1e18b|177,225,139|
+|yellow|$${\colorbox{yellow}{...}}$$|d19a66|209,154,102|
+|yellow_b|$${\colorbox{yellow_b}{...}}$$|efb074|239,176,116|
+|blue|$${\colorbox{blue}{...}}$$|61afef|97,175,239|
+|blue_b|$${\colorbox{blue_b}{...}}$$|67cdff|103,205,255|
+|magenta|$${\colorbox{magenta}{...}}$$|c678dd|198,120,221|
+|magenta_b|$${\colorbox{magenta_b}{...}}$$|e48bff|228,139,255|
+|cyan|$${\colorbox{cyan}{...}}$$|56b6c2|86,182,194|
+|cyan_b|$${\colorbox{cyan_b}{...}}$$|63d4e0|99,212,224|
 
 ### New (and optional)
 
-|One Dark|name|Ansi|Terminal|Text Editor|
-|---|---|---|---|---|
-|![#](https://placehold.it/25/d78460/000000?text=+)|orange|-|N/A|N/A|
-|![#](https://placehold.it/25/de9a7c/000000?text=+)|orange_b|-|N/A|N/A|
-|![#](https://placehold.it/25/994949/000000?text=+)|brown|-|N/A|Opening/Closing Embedded Language Tags|
-|![#](https://placehold.it/25/bf5c5c/000000?text=+)|brown_b|-|N/A|N/A|N/A|
-|![#](https://placehold.it/25/e9969d/000000?text=+)|pink|-|N/A|N/A|
-|![#](https://placehold.it/25/eeafb4/000000?text=+)|pink_b|-|N/A|N/A|
-
+|Name|Colour|HEX Code|RGB|
+|---|---|---|---|
+|orange|$${\colorbox{orange}{...}}$$|d78460|215,132,96|
+|orange_b|$${\colorbox{orange_b}{...}}$$|de9a7c|222,154,124|
+|brown|$${\colorbox{brown}{...}}$$|994949|153,73,73|
+|brown_b|$${\colorbox{brown_b}{...}}$$|bf5c5c|191,92,92|
+|pink|$${\colorbox{pink}{...}}$$|e9969d|233,150,157|
+|pink_b|$${\colorbox{pink_b}{...}}$$|eeafb4|238,175,180|
 
 ## Proposed mappings
 
