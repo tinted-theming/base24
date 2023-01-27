@@ -171,6 +171,7 @@ To add your own scheme, submit a pull request to URL and add your repository to 
 - [One Black](https://github.com/Base24/base24-one-black-scheme)
 - [One Dark](https://github.com/Base24/base24-one-dark-scheme)
 - [One Light](https://github.com/Base24/base24-one-light-scheme)
+- [Da One](https://github.com/NNBnh/base24-da-one-schemes)
 
 ### Generated from existing themes
 
