@@ -207,6 +207,7 @@ To add your own scheme, submit a pull request to URL and add your repository to 
 - [Materia](https://github.com/Defman21/base16-materia)
 - [Material Theme](https://github.com/ntpeters/base16-materialtheme-scheme)
 - [Material Vivid](https://github.com/joshyrobot/base16-material-vivid-scheme)
+- [Measured](https://github.com/measuredco/base16-measured-scheme)
 - [Mellow](https://github.com/gidsi/base16-mellow-scheme)
 - [Mexico-Light](https://github.com/drzel/base16-mexico-light-scheme)
 - [nebula](https://github.com/Misterio77/base16-nebula-scheme)
