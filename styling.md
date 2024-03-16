@@ -53,7 +53,7 @@ lighter still.
 |![#](https://placehold.it/25/56b6c2/000000?text=+)|base0C|6|Cyan|Support, Regular Expressions, Escape Characters, Markup Quotes|
 |![#](https://placehold.it/25/61afef/000000?text=+)|base0D|4|Blue|Functions, Methods, Attribute IDs, Headings|
 |![#](https://placehold.it/25/c678dd/000000?text=+)|base0E|5|Purple|Keywords, Storage, Selector, Markup Italic, Diff Changed|
-|![#](https://placehold.it/25/be5046/000000?text=+)|base0F|-|NA|Deprecated|
+|![#](https://placehold.it/25/be5046/000000?text=+)|base0F|-|NA|Deprecated Higlighting for Methods and Functions, Opening/Closing Embedded Language Tags, e.g. `<?php ?>`|
 |![#](https://placehold.it/25/21252b/000000?text=+)|base10|-|NA|Darker Background|
 |![#](https://placehold.it/25/181a1f/000000?text=+)|base11|-|NA|The Darkest Background|
 |![#](https://placehold.it/25/ff7b86/000000?text=+)|base12|9|Bright Red|NA|
