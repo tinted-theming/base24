@@ -58,5 +58,4 @@ base16: "67cdff"
 base17: "e48bff"
 ```
 
-
 Hexadecimal colour values should not be preceded by a "#".

@@ -1,32 +1,25 @@
-# The future of Base24
+# The Evolution of Base24
 
-Parts of the Base16 and Base24 spec are not particularly widely used so this
-file is a proposal on making some changes to the specification
+The Base16 and Base24 specifications have been reevaluated to address certain shortcomings and enhance overall compatibility and usability.
 
-## Advantages of these changes
-These changes include two additional colours and improve support for an existing
-colour.
+## Advantages of the Proposed Changes
 
-Shortfalls of Base24 0.1.0:
-Brown does not have a bright variant - this was as the colour was presumed
-deprecated
-Colours are not in 'ansi order' - that is the mental gymnastics to map base24
-colours to the ansi counterparts are more challenging than desired
+These adjustments introduce two additional colours and enhance support for an existing colour, offering greater flexibility and consistency within the scheme.
 
-These changes aim to remediate these challenges
+### Shortcomings of Base24 0.1.0
 
-Move away from baseXX naming as this can be confusing for scheme and template
-designers, instead support a naming system.
+- Lack of a bright variant for the colour Brown, which was presumed deprecated.
+- Colours are not arranged in 'ansi order,' complicating the mapping process to ANSI counterparts.
 
-## Disadvantages of these changes
-This will break forwards compatibility. i.e. base16 schemes will not work and
-previous versions of base24 schemes will no longer work.
+## Objectives of the Proposed Changes
 
-Backwards compatibility can be preserved, though this will lead to more work for
-the builder. Most programmers should be able to implement this backwards
-compatibility with minimal headache.
+- Transition away from the baseXX naming convention, which can be confusing for scheme and template designers, in favour of a more intuitive naming system.
 
-## File
+## Disadvantages and Compatibility Considerations
+
+These changes will break forwards compatibility; existing Base16 schemes will no longer function, and previous versions of Base24 schemes will become incompatible. However, backwards compatibility can be preserved with some effort, although this may require additional work from builders.
+
+## File Structure
 
 ### Schemes
 
@@ -42,11 +35,10 @@ fg_lightest: "ffffff"
 ...
 ```
 
-## Builder
+## Builder Guidelines
 
 ### Requirements
-Builders must iterate through a series of local templates and schemes to
-produce some sane output. An example input/ output file structure may be:
+Builders should iterate through a series of local templates and schemes to generate outputs. An example file structure for input and output:
 
 ```none
 input/schemes
@@ -81,76 +73,52 @@ DEC
 
 An example of this may be white_b_int_r
 
-### Optional but desirable
-Builders may use a config file pointing to a list of schemes and fetch these
-through git.
+### Optional but Desirable
+Builders may use a config file pointing to a list of schemes and fetch these through git.
 
-Be backwards compatible with Base24 0.1.0 and Base16 0.9.1
+Ensure backward compatibility with Base24 0.1.0 and Base16 0.9.1.
 
 ## Styling
 
-$${\definecolor{bg_darkest}{RGB}{33,37,43}}$$
-$${\definecolor{bg_dark}{RGB}{40,44,52}}$$
-$${\definecolor{black}{RGB}{63,68,81}}$$
-$${\definecolor{black_b}{RGB}{79,86,102}}$$
-$${\definecolor{white}{RGB}{230,230,230}}$$
-$${\definecolor{white_b}{RGB}{255,255,255}}$$
-$${\definecolor{red}{RGB}{224,108,117}}$$
-$${\definecolor{red_b}{RGB}{255,123,134}}$$
-$${\definecolor{green}{RGB}{152,195,121}}$$
-$${\definecolor{green_b}{RGB}{177,225,139}}$$
-$${\definecolor{yellow}{RGB}{209,154,102}}$$
-$${\definecolor{yellow_b}{RGB}{239,176,116}}$$
-$${\definecolor{blue}{RGB}{97,175,239}}$$
-$${\definecolor{blue_b}{RGB}{103,205,255}}$$
-$${\definecolor{magenta}{RGB}{198,120,221}}$$
-$${\definecolor{magenta_b}{RGB}{228,139,255}}$$
-$${\definecolor{cyan}{RGB}{86,182,194}}$$
-$${\definecolor{cyan_b}{RGB}{99,212,224}}$$
-$${\definecolor{orange}{RGB}{215,132,96}}$$
-$${\definecolor{orange_b}{RGB}{222,154,124}}$$
-$${\definecolor{brown}{RGB}{153,73,73}}$$
-$${\definecolor{brown_b}{RGB}{191,92,92}}$$
-$${\definecolor{pink}{RGB}{233,150,157}}$$
-$${\definecolor{pink_b}{RGB}{238,175,180}}$$
-
-## One Dark
+### Example - One Dark Theme
 
 |Name|Colour|HEX Code|RGB|
 |---|---|---|---|
-|bg_darkest|$${\colorbox{bg_darkest}{...}}$$|21252b|33,37,43|
-|bg_dark|$${\colorbox{bg_dark}{...}}$$|282c34|40,44,52|
-|black|$${\colorbox{black}{...}}$$|3f4451|63,68,81|
-|black_b|$${\colorbox{black_b}{...}}$$|4f5666|79,86,102|
-|white|$${\colorbox{white}{...}}$$|e6e6e6|230,230,230|
-|white_b|$${\colorbox{white_b}{...}}$$|ffffff|255,255,255|
-|red|$${\colorbox{red}{...}}$$|e06c75|224,108,117|
-|red_b|$${\colorbox{red_b}{...}}$$|ff7b86|255,123,134|
-|green|$${\colorbox{green}{...}}$$|98c379|152,195,121|
-|green_b|$${\colorbox{green_b}{...}}$$|b1e18b|177,225,139|
-|yellow|$${\colorbox{yellow}{...}}$$|d19a66|209,154,102|
-|yellow_b|$${\colorbox{yellow_b}{...}}$$|efb074|239,176,116|
-|blue|$${\colorbox{blue}{...}}$$|61afef|97,175,239|
-|blue_b|$${\colorbox{blue_b}{...}}$$|67cdff|103,205,255|
-|magenta|$${\colorbox{magenta}{...}}$$|c678dd|198,120,221|
-|magenta_b|$${\colorbox{magenta_b}{...}}$$|e48bff|228,139,255|
-|cyan|$${\colorbox{cyan}{...}}$$|56b6c2|86,182,194|
-|cyan_b|$${\colorbox{cyan_b}{...}}$$|63d4e0|99,212,224|
+|bg_darkest|![bg_darkest](https://placehold.it/25/21252b/000000?text=+)|21252b|33,37,43|
+|bg_dark|![bg_dark](https://placehold.it/25/282c34/000000?text=+)|282c34|40,44,52|
+|black|![black](https://placehold.it/25/3f4451/000000?text=+)|3f4451|63,68,81|
+|black_b|![black_b](https://placehold.it/25/4f5666/000000?text=+)|4f5666|79,86,102|
+|white|![white](https://placehold.it/25/e6e6e6/000000?text=+)|e6e6e6|230,230,230|
+|white_b|![white_b](https://placehold.it/25/ffffff/000000?text=+)|ffffff|255,255,255|
+|red|![red](https://placehold.it/25/e06c75/000000?text=+)|e06c75|224,108,117|
+|red_b|![red_b](https://placehold.it/25/ff7b86/000000?text=+)|ff7b86|255,123,134|
+|green|![green](https://placehold.it/25/98c379/000000?text=+)|98c379|152,195,121|
+|green_b|![green_b](https://placehold.it/25/b1e18b/000000?text=+)|b1e18b|177,225,139|
+|yellow|![yellow](https://placehold.it/25/d19a66/000000?text=+)|d19a66|209,154,102|
+|yellow_b|![yellow_b](https://placehold.it/25/efb074/000000?text=+)|efb074|239,176,116|
+|blue|![blue](https://placehold.it/25/61afef/000000?text=+)|61afef|97,175,239|
+|blue_b|![blue_b](https://placehold.it/25/67cdff/000000?text=+)|67cdff|103,205,255|
+|magenta|![magenta](https://placehold.it/25/c678dd/000000?text=+)|c678dd|198,120,221|
+|magenta_b|![magenta_b](https://placehold.it/25/e48bff/000000?text=+)|e48bff|228,139,255|
+|cyan|![cyan](https://placehold.it/25/56b6c2/000000?text=+)|56b6c2|86,182,194|
+|cyan_b|![cyan_b](https://placehold.it/25/63d4e0/000000?text=+)|63d4e0|99,212,224|
 
-### New (and optional)
+### New colours
 
 |Name|Colour|HEX Code|RGB|
 |---|---|---|---|
-|orange|$${\colorbox{orange}{...}}$$|d78460|215,132,96|
-|orange_b|$${\colorbox{orange_b}{...}}$$|de9a7c|222,154,124|
-|brown|$${\colorbox{brown}{...}}$$|994949|153,73,73|
-|brown_b|$${\colorbox{brown_b}{...}}$$|bf5c5c|191,92,92|
-|pink|$${\colorbox{pink}{...}}$$|e9969d|233,150,157|
-|pink_b|$${\colorbox{pink_b}{...}}$$|eeafb4|238,175,180|
+|orange|![orange](https://placehold.it/25/d78460/000000?text=+)|d78460|215,132,96|
+|orange_b|![orange_b](https://placehold.it/25/de9a7c/000000?text=+)|de9a7c|222,154,124|
+|brown|![brown](https://placehold.it/25/994949/000000?text=+)|994949|153,73,73|
+|brown_b|![brown_b](https://placehold.it/25/bf5c5c/000000?text=+)|bf5c5c|191,92,92|
+|pink|![pink](https://placehold.it/25/e9969d/000000?text=+)|e9969d|233,150,157|
+|pink_b|![pink_b](https://placehold.it/25/eeafb4/000000?text=+)|eeafb4|238,175,180|
 
-## Proposed mappings
+### Colour Mapping
 
-|Base24|Base24(old)|Base16|
+The proposed mappings between Base24, the previous Base24 version, and Base16:
+
+|Base24|Base24 (old)|Base16|
 |---|---|---|
 |bg_darkest|base11|base00|
 |bg_dark|base10|base00|
