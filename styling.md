@@ -1,5 +1,7 @@
 # Colours Overview
 
+**Version 0.1.0**
+
 We define a set of colour codes organized into shades ranging from dark to light. These codes are commonly used in software development and design for creating themes or styling user interfaces.
 
 ## Base24 Fallbacks
@@ -43,21 +45,21 @@ Each colour (baseNN) serves a specific purpose or use case, such as background, 
 | ![Colour](https://placehold.it/25/abb2bf/000000?text=+) | base05 | -    | Foreground          | Default Foreground, Caret, Delimiters, Operators |
 | ![Colour](https://placehold.it/25/e6e6e6/000000?text=+) | base06 | 7    | White               | Light Foreground (Not often used) |
 | ![Colour](https://placehold.it/25/ffffff/000000?text=+) | base07 | 15   | Bright White        | The Lightest Foreground (Not often used) |
-| ![Colour](https://placehold.it/25/e06c75/000000?text=+) | base08 | 1    | Red                 | Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted |
-| ![Colour](https://placehold.it/25/d19a66/000000?text=+) | base09 | 3    | Yellow              | Integers, Boolean, Constants, XML Attributes, Markup Link Url |
-| ![Colour](https://placehold.it/25/e5c07b/000000?text=+) | base0A | ~11  | (Bright Yellow)     | Classes, Markup Bold, Search Text Background |
-| ![Colour](https://placehold.it/25/98c379/000000?text=+) | base0B | 2    | Green               | Strings, Inherited Class, Markup Code, Diff Inserted |
-| ![Colour](https://placehold.it/25/56b6c2/000000?text=+) | base0C | 6    | Cyan                | Support, Regular Expressions, Escape Characters, Markup Quotes |
-| ![Colour](https://placehold.it/25/61afef/000000?text=+) | base0D | 4    | Blue                | Functions, Methods, Attribute IDs, Headings |
-| ![Colour](https://placehold.it/25/c678dd/000000?text=+) | base0E | 5    | Purple              | Keywords, Storage, Selector, Markup Italic, Diff Changed |
+| ![Colour](https://placehold.it/25/e06c75/000000?text=+) | base08 | 9    | Bright Red          | Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted |
+| ![Colour](https://placehold.it/25/d19a66/000000?text=+) | base09 | 11   | Yellow              | Integers, Boolean, Constants, XML Attributes, Markup Link Url |
+| ![Colour](https://placehold.it/25/e5c07b/000000?text=+) | base0A | ~3   | Bright Yellow       | Classes, Markup Bold, Search Text Background |
+| ![Colour](https://placehold.it/25/98c379/000000?text=+) | base0B | 10   | Bright Green        | Strings, Inherited Class, Markup Code, Diff Inserted |
+| ![Colour](https://placehold.it/25/56b6c2/000000?text=+) | base0C | 14   | Bright Cyan         | Support, Regular Expressions, Escape Characters, Markup Quotes |
+| ![Colour](https://placehold.it/25/61afef/000000?text=+) | base0D | 12   | Bright Blue         | Functions, Methods, Attribute IDs, Headings |
+| ![Colour](https://placehold.it/25/c678dd/000000?text=+) | base0E | 13   | Bright Purple       | Keywords, Storage, Selector, Markup Italic, Diff Changed |
 | ![Colour](https://placehold.it/25/be5046/000000?text=+) | base0F | -    | (Dark Red/Brown)    | Deprecated Highlighting for Methods and Functions, Opening/Closing Embedded Language Tags, e.g., `<?php ?>` |
 | ![Colour](https://placehold.it/25/21252b/000000?text=+) | base10 | -    | ('Darker' Black)    | Darker Background |
 | ![Colour](https://placehold.it/25/181a1f/000000?text=+) | base11 | -    | ('Darkest' Black)   | The Darkest Background |
-| ![Colour](https://placehold.it/25/ff7b86/000000?text=+) | base12 | 9    | Bright Red          | NA |
-| ![Colour](https://placehold.it/25/efb074/000000?text=+) | base13 | 11   | Bright Yellow       | NA |
-| ![Colour](https://placehold.it/25/b1e18b/000000?text=+) | base14 | 10   | Bright Green        | NA |
-| ![Colour](https://placehold.it/25/63d4e0/000000?text=+) | base15 | 14   | Bright Cyan         | NA |
-| ![Colour](https://placehold.it/25/67cdff/000000?text=+) | base16 | 12   | Bright Blue         | NA |
-| ![Colour](https://placehold.it/25/e48bff/000000?text=+) | base17 | 13   | Bright Purple       | NA |
+| ![Colour](https://placehold.it/25/ff7b86/000000?text=+) | base12 | 1    | Red                 | NA |
+| ![Colour](https://placehold.it/25/efb074/000000?text=+) | base13 | 3    | Yellow              | NA |
+| ![Colour](https://placehold.it/25/b1e18b/000000?text=+) | base14 | 2    | Green               | NA |
+| ![Colour](https://placehold.it/25/63d4e0/000000?text=+) | base15 | 6    | Cyan                | NA |
+| ![Colour](https://placehold.it/25/67cdff/000000?text=+) | base16 | 4    | Blue                | NA |
+| ![Colour](https://placehold.it/25/e48bff/000000?text=+) | base17 | 5    | Purple              | NA |
 
 Note: Items in parenthesis for the Terminal/Colour Use do not have an identified terminal use and are a more generic colour description. Implementation may vary depending on the Base24 scheme.
