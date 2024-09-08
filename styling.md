@@ -62,4 +62,6 @@ Each colour (baseNN) serves a specific purpose or use case, such as background, 
 | ![Colour](https://placehold.it/25/67cdff/000000?text=+) | base16 | 4    | Blue                | NA |
 | ![Colour](https://placehold.it/25/e48bff/000000?text=+) | base17 | 5    | Purple              | NA |
 
+Note: *Bright* refers to the variant of the color that has higher luminance and saturation compared to the non-bright variant.
+
 Note: Items in parenthesis for the Terminal/Colour Use do not have an identified terminal use and are a more generic colour description. Implementation may vary depending on the Base24 scheme.
