@@ -2,11 +2,14 @@
 
 **Version 0.1.0**
 
-We define a set of colour codes organized into shades ranging from dark to light. These codes are commonly used in software development and design for creating themes or styling user interfaces.
+We define a set of colour codes organized into shades ranging from dark
+to light. These codes are commonly used in software development and
+design for creating themes or styling user interfaces.
 
 ## Base24 Fallbacks
 
-We provide a mapping between Base24 and Base16 colour codes for reference:
+We provide a mapping between Base24 and Base16 colour codes for
+reference:
 
 | Base24 | Base16 |
 | ------ | ------ |
@@ -24,16 +27,19 @@ We provide a mapping between Base24 and Base16 colour codes for reference:
 We offer guidelines for both dark and light themes:
 
 - **Dark Theme**:
-	- Colours from base00 to base07 should range from dark to light.
-	- Colours base10 to base11 should span from light to dark, but still darker than base00.
+  - Colours from base00 to base07 should range from dark to light.
+  - Colours base10 to base11 should span from light to dark, but still
+	darker than base00.
 
 - **Light Theme**:
-	- Colours from base00 to base07 should range from light to dark.
-	- Colours base10 to base11 should span from dark to light, but lighter than base00.
+  - Colours from base00 to base07 should range from light to dark.
+  - Colours base10 to base11 should span from dark to light, but lighter
+    than base00.
 
 ## Specific Colours and Their Usages
 
-Each colour (baseNN) serves a specific purpose or use case, such as background, foreground, variables, etc. Here's a breakdown:
+Each colour (baseNN) serves a specific purpose or use case, such as
+background, foreground, variables, etc. Here's a breakdown:
 
 | Colour                                                  | BaseNN | Ansi | Terminal/Colour Use | Text Editor |
 | ------------------------------------------------------- | ------ | ---- | ------------------- | ----------- |
@@ -62,8 +68,19 @@ Each colour (baseNN) serves a specific purpose or use case, such as background, 
 | ![Colour](https://placehold.it/25/67cdff/000000?text=+) | base16 | 4    | Blue                | NA |
 | ![Colour](https://placehold.it/25/e48bff/000000?text=+) | base17 | 5    | Purple              | NA |
 
-Note: Items in parenthesis for the Terminal/Colour Use do not have an identified terminal use and are a more generic colour description. Implementation may vary depending on the Base24 scheme.
+Note: Items in parenthesis for the Terminal/Colour Use do not have an
+identified terminal use and are a more generic colour description.
+Implementation may vary depending on the Base24 scheme.
 
-Note: *Bright* refers to the variant of the color that has higher luminance and saturation compared to the non-bright variant.
+Note: In `HSL` terms, **Bright** refers to a colour with a Lightness (`L`)
+value close to `50`, which is a balanced midpoint between dark and
+light. It also typically has a Saturation (`S`) value close to `100`,
+meaning the colour is vivid and not muted. This results in a colour that
+appears bright and vivid compared to another colour. However, brightness
+is relative, meaning one colour can be considered brighter than another
+even if both are not particularly bright. For example, a colour with
+higher saturation and a lightness closer to `50` may be perceived as
+brighter than a less saturated or darker variant, even if neither is
+intensely bright.
 
 ![Red and Bright Red Example](https://raw.github.com/tinted-theming/base24/main/red-and-bright-red-example.png)
