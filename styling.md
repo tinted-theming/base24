@@ -72,7 +72,7 @@ Note: Items in parenthesis for the Terminal/Colour Use do not have an
 identified terminal use and are a more generic colour description.
 Implementation may vary depending on the Base24 scheme.
 
-Note: **Bright** colors should have a higher luminosity relative to its
+Note: **Bright** colors can have a higher luminosity relative to its
 non-bright counterpart. Conventionally, the luminosity can be determined by
 looking at the `L` value in the `HSL` color space (for the best accuracy,
 [`OKHSL`/`OKHSV`](https://bottosson.github.io/misc/colorpicker) is recommended).
