@@ -57,7 +57,7 @@ background, foreground, variables, etc. Here's a breakdown:
 | ![Colour](https://placehold.co/25/98c379/000000?text=%2B) | base0B | 2    | Green               | Strings, Inherited Class, Markup Code, Diff Inserted |
 | ![Colour](https://placehold.co/25/56b6c2/000000?text=%2B) | base0C | 6    | Cyan                | Support, Regular Expressions, Escape Characters, Markup Quotes |
 | ![Colour](https://placehold.co/25/61afef/000000?text=%2B) | base0D | 4    | Blue                | Functions, Methods, Attribute IDs, Headings |
-| ![Colour](https://placehold.co/25/c678dd/000000?text=%2B) | base0E | 5    | Purple              | Keywords, Storage, Selector, Markup Italic, Diff Changed |
+| ![Colour](https://placehold.co/25/c678dd/000000?text=%2B) | base0E | 5    | Magenta             | Keywords, Storage, Selector, Markup Italic, Diff Changed |
 | ![Colour](https://placehold.co/25/be5046/000000?text=%2B) | base0F | -    | (Dark Red or Brown) | Deprecated Highlighting for Methods and Functions, Opening/Closing Embedded Language Tags, e.g., `<?php ?>` |
 | ![Colour](https://placehold.co/25/21252b/000000?text=%2B) | base10 | -    | (Darker Black)      | Darker Background |
 | ![Colour](https://placehold.co/25/181a1f/000000?text=%2B) | base11 | -    | (Darkest Black)     | The Darkest Background |
@@ -66,7 +66,7 @@ background, foreground, variables, etc. Here's a breakdown:
 | ![Colour](https://placehold.co/25/b1e18b/000000?text=%2B) | base14 | 10   | Bright Green        | NA |
 | ![Colour](https://placehold.co/25/63d4e0/000000?text=%2B) | base15 | 14   | Bright Cyan         | NA |
 | ![Colour](https://placehold.co/25/67cdff/000000?text=%2B) | base16 | 12   | Bright Blue         | NA |
-| ![Colour](https://placehold.co/25/e48bff/000000?text=%2B) | base17 | 13   | Bright Purple       | NA |
+| ![Colour](https://placehold.co/25/e48bff/000000?text=%2B) | base17 | 13   | Bright Magenta      | NA |
 
 Note: Items in parenthesis for the Terminal/Colour Use do not have an
 identified terminal use and are a more generic colour description.
