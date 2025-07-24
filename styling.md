@@ -1,6 +1,6 @@
 # Colours Overview
 
-**Version 0.1.0**
+**Version 0.1.1**
 
 We define a set of colour codes organized into shades ranging from dark
 to light. These codes are commonly used in software development and
@@ -43,22 +43,22 @@ background, foreground, variables, etc. Here's a breakdown:
 
 | Colour                                                  | BaseNN | Ansi | Terminal/Colour Use | Text Editor |
 | ------------------------------------------------------- | ------ | ---- | ------------------- | ----------- |
-| ![Colour](https://placehold.co/25/282c34/000000?text=%2B) | base00 | -    | Background          | Default Background |
-| ![Colour](https://placehold.co/25/3f4451/000000?text=%2B) | base01 | 0    | Black               | Lighter Background (Used for status bars) |
-| ![Colour](https://placehold.co/25/4f5666/000000?text=%2B) | base02 | 8    | Bright Black        | Selection Background |
-| ![Colour](https://placehold.co/25/545862/000000?text=%2B) | base03 | -    | (Grey)              | Comments, Invisibles, Line Highlighting |
-| ![Colour](https://placehold.co/25/9196a1/000000?text=%2B) | base04 | -    | (Light Grey)        | Dark Foreground (Used for status bars) |
-| ![Colour](https://placehold.co/25/abb2bf/000000?text=%2B) | base05 | -    | Foreground          | Default Foreground, Caret, Delimiters, Operators |
+| ![Colour](https://placehold.co/25/282c34/000000?text=%2B) | base00 | 0    | Background          | Default Background |
+| ![Colour](https://placehold.co/25/3f4451/000000?text=%2B) | base01 | 18   | (Darkest Gray)      | Lighter Background (Used for status bars) |
+| ![Colour](https://placehold.co/25/4f5666/000000?text=%2B) | base02 | 19   | Bright Black        | Selection Background |
+| ![Colour](https://placehold.co/25/545862/000000?text=%2B) | base03 | 8    | (Grey)              | Comments, Invisibles, Line Highlighting |
+| ![Colour](https://placehold.co/25/9196a1/000000?text=%2B) | base04 | 20   | (Light Grey)        | Dark Foreground (Used for status bars) |
+| ![Colour](https://placehold.co/25/abb2bf/000000?text=%2B) | base05 | 21   | Foreground          | Default Foreground, Caret, Delimiters, Operators |
 | ![Colour](https://placehold.co/25/e6e6e6/000000?text=%2B) | base06 | 7    | White               | Light Foreground (Not often used) |
 | ![Colour](https://placehold.co/25/ffffff/000000?text=%2B) | base07 | 15   | Bright White        | The Lightest Foreground (Not often used) |
 | ![Colour](https://placehold.co/25/e06c75/000000?text=%2B) | base08 | 1    | Red                 | Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted |
-| ![Colour](https://placehold.co/25/d19a66/000000?text=%2B) | base09 | ~3   | (Orange)            | Integers, Boolean, Constants, XML Attributes, Markup Link Url |
+| ![Colour](https://placehold.co/25/d19a66/000000?text=%2B) | base09 | 16   | (Orange)            | Integers, Boolean, Constants, XML Attributes, Markup Link Url |
 | ![Colour](https://placehold.co/25/e5c07b/000000?text=%2B) | base0A | 3    | Yellow              | Classes, Markup Bold, Search Text Background |
 | ![Colour](https://placehold.co/25/98c379/000000?text=%2B) | base0B | 2    | Green               | Strings, Inherited Class, Markup Code, Diff Inserted |
 | ![Colour](https://placehold.co/25/56b6c2/000000?text=%2B) | base0C | 6    | Cyan                | Support, Regular Expressions, Escape Characters, Markup Quotes |
 | ![Colour](https://placehold.co/25/61afef/000000?text=%2B) | base0D | 4    | Blue                | Functions, Methods, Attribute IDs, Headings |
 | ![Colour](https://placehold.co/25/c678dd/000000?text=%2B) | base0E | 5    | Magenta             | Keywords, Storage, Selector, Markup Italic, Diff Changed |
-| ![Colour](https://placehold.co/25/be5046/000000?text=%2B) | base0F | -    | (Dark Red or Brown) | Deprecated Highlighting for Methods and Functions, Opening/Closing Embedded Language Tags, e.g., `<?php ?>` |
+| ![Colour](https://placehold.co/25/be5046/000000?text=%2B) | base0F | 17   | (Dark Red or Brown) | Deprecated Highlighting for Methods and Functions, Opening/Closing Embedded Language Tags, e.g., `<?php ?>` |
 | ![Colour](https://placehold.co/25/21252b/000000?text=%2B) | base10 | -    | (Darker Black)      | Darker Background |
 | ![Colour](https://placehold.co/25/181a1f/000000?text=%2B) | base11 | -    | (Darkest Black)     | The Darkest Background |
 | ![Colour](https://placehold.co/25/ff7b86/000000?text=%2B) | base12 | 9    | Bright Red          | NA |
