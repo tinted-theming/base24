@@ -39,7 +39,8 @@ We offer guidelines for both dark and light themes:
 ## Specific Colours and Their Usages
 
 Each colour (baseNN) serves a specific purpose or use case, such as
-background, foreground, variables, etc. Here's a breakdown:
+background, foreground, variables, etc.
+Here is an overview; additional guidance is provided in the following sections.
 
 | Colour                                                  | BaseNN | Ansi | Terminal/Colour Use | Text Editor |
 | ------------------------------------------------------- | ------ | ---- | ------------------- | ----------- |
@@ -68,6 +69,10 @@ background, foreground, variables, etc. Here's a breakdown:
 | ![Colour](https://placehold.co/25/67cdff/000000?text=%2B) | base16 | 12   | Bright Blue         | NA |
 | ![Colour](https://placehold.co/25/e48bff/000000?text=%2B) | base17 | 13   | Bright Magenta      | NA |
 
+Note: The colours base00 through base05 are typically neutral.
+The colours from base08 and up are typically more colourful,
+and give the colour scheme a distinctive "look".
+
 Note: Items in parenthesis for the Terminal/Colour Use do not have an
 identified terminal use and are a more generic colour description.
 Implementation may vary depending on the Base24 scheme.
@@ -81,3 +86,80 @@ is not a hard requirement.
 
 ![Red and Bright Red Example](https://github.com/tinted-theming/base24/blob/main/assets/red-and-bright-red-example.png?raw=true)
 ![Red and Bright Red Grayscale Example](https://github.com/tinted-theming/base24/blob/main/assets/red-and-bright-red-grayscale-example.png?raw=true)
+
+### Normal elements
+
+Ordinary text uses foreground base05 and background base00.
+Choose these colours for _high_ legibility, as the user does most of the reading and writing with these colours.
+
+Compositors and display managers
+use foreground base00 and background base01 or base05 to label normal unfocused workspaces, clients, and tabs, as well as for the borders of those elements.
+
+### Focus elements
+
+These colours indicate where the user is currently interacting.
+
+Text editors use foreground base05 and background base01 to indicate the current line.
+
+Compositors and display managers
+use foreground base00 and background base0D to label focused workspaces, clients, and tabs,
+and base05 for the borders of those elements.
+
+### Inactive elements
+
+Base03 is used to indicate that something is not active.
+
+Text editors use this as text foreground for comments.
+Ensure that it is legible against the normal background (base00).
+
+Compositors and display managers
+use foreground base05 and background base01 to label inactive workspaces, clients, and tabs,
+and base01 or base03 for the borders of those elements.
+
+### Category elements
+
+Base08, base09, base0A, base0B, base0C, base0D and base0E
+are used to distinguish between different kinds of elements.
+
+Text editors use these colours as text foregrounds for syntax highlighting.
+Ensure that they are legible against the ordinary background (base01).
+
+Compositors use these colours for borders and tabs on windows in a tabbed arrangement.
+
+Analysis apps (e.g., system monitors) use these colours in plots and charts to represent different variables.
+
+### Warning elements
+
+Base0F is used for elements that provide a warning.
+
+Text editors use this as text foreground for warnings.
+Ensure that it is legible against the normal background (base00).
+
+### Alert elements
+
+These colours indicate errors, alerts, and anything urgent.
+
+Text editors use base08 as text foreground for errors.
+Ensure that it is legible against the normal background (base00).
+
+Compositors and display managers
+use foreground base00 and background base08 to label urgent workspaces, clients, and tabs,
+and base08 for the borders of those elements.
+
+### Menu elements
+
+Normal menu options use base04 as text foreground and base00 for the background.
+
+### Selected elements
+
+Currently selected menu options use base05 or base06 as text foreground and base02 for the background.
+
+### Matching elements
+
+In applications where the user can search for text,
+Base06 is used as foreground for the matching strings.
+
+Some menus will filter the selections as the user begins typing.
+base06, base0D or base0E are used as foreground for the matching characters in unselected options,
+and base0D is used as foreground for the matching characters in selected options.
+
