@@ -92,8 +92,9 @@ is not a hard requirement.
 Ordinary text uses foreground `base05` and background `base00`.
 Choose these colors for _high_ legibility, as the user does most of the reading and writing with these colors.
 
-Compositors and display managers
-use foreground `base00` and background `base01` or `base05` to label normal unfocused workspaces, clients, and tabs, as well as for the borders of those elements.
+Compositors and display managers:
+- Use foreground `base00` and background `base01` or `base05` to label normal unfocused workspaces, clients, and tabs.
+- Use `base01` or `base05` for the borders of those elements.
 
 ### Focus elements
 
@@ -101,9 +102,9 @@ These colors indicate where the user is currently interacting.
 
 Text editors use foreground `base05` and background `base01` to indicate the current line.
 
-Compositors and display managers
-use foreground `base00` and background `base0D` to label focused workspaces, clients, and tabs,
-and `base05` for the borders of those elements.
+Compositors and display managers:
+- Use foreground `base00` and background `base0D` to label focused workspaces, clients, and tabs.
+- Use `base05` for the borders of those elements.
 
 ### Inactive elements
 
@@ -112,9 +113,9 @@ and `base05` for the borders of those elements.
 Text editors use this as text foreground for comments.
 Ensure that it is legible against the normal background (`base00`).
 
-Compositors and display managers
-use foreground `base05` and background `base01` to label inactive workspaces, clients, and tabs,
-and `base01` or `base03` for the borders of those elements.
+Compositors and display managers:
+- Use foreground `base05` and background `base01` to label inactive workspaces, clients, and tabs
+- Use `base01` or `base03` for the borders of those elements.
 
 ### Category elements
 
@@ -142,9 +143,9 @@ These colors indicate errors, alerts, and anything urgent.
 Text editors use `base08` as text foreground for errors.
 Ensure that it is legible against the normal background (`base00`).
 
-Compositors and display managers
-use foreground `base00` and background `base08` to label urgent workspaces, clients, and tabs,
-and `base08` for the borders of those elements.
+Compositors and display managers:
+- Use foreground `base00` and background `base08` to label urgent workspaces, clients, and tabs.
+- Use `base08` for the borders of those elements.
 
 ### Menu elements
 
@@ -160,6 +161,6 @@ In applications where the user can search for text,
 `base06` is used as foreground for the matching strings.
 
 Some menus will filter the selections as the user begins typing.
-`base06`, `base0D` or `base0E` are used as foreground for the matching characters in unselected options,
-and `base0D` is used as foreground for the matching characters in selected options.
+- Use `base06`, `base0D` or `base0E` as foreground for the matching characters in unselected options.
+- Use `base0D` as foreground for the matching characters in selected options.
 
