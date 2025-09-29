@@ -1,14 +1,14 @@
-# Colours Overview
+# Colors Overview
 
 **Version 0.1.1**
 
-We define a set of colour codes organized into shades ranging from dark
+We define a set of color codes organized into shades ranging from dark
 to light. These codes are commonly used in software development and
 design for creating themes or styling user interfaces.
 
 ## Base24 Fallbacks
 
-We provide a mapping between Base24 and Base16 colour codes for
+We provide a mapping between Base24 and Base16 color codes for
 reference:
 
 | Base24 | Base16 |
@@ -27,22 +27,22 @@ reference:
 We offer guidelines for both dark and light themes:
 
 - **Dark Theme**:
-  - Colours from base00 to base07 should range from dark to light.
-  - Colours base10 to base11 should span from light to dark, but still
+  - Colors from base00 to base07 should range from dark to light.
+  - Colors base10 to base11 should span from light to dark, but still
 	darker than base00.
 
 - **Light Theme**:
-  - Colours from base00 to base07 should range from light to dark.
-  - Colours base10 to base11 should span from dark to light, but lighter
+  - Colors from base00 to base07 should range from light to dark.
+  - Colors base10 to base11 should span from dark to light, but lighter
     than base00.
 
-## Specific Colours and Their Usages
+## Specific Colors and Their Usages
 
-Each colour (baseNN) serves a specific purpose or use case, such as
+Each color (baseNN) serves a specific purpose or use case, such as
 background, foreground, variables, etc.
 Here is an overview; additional guidance is provided in the following sections.
 
-| Colour                                                  | BaseNN | Ansi | Terminal/Colour Use | Text Editor |
+| Color                                                  | BaseNN | Ansi | Terminal/Color Use | Text Editor |
 | ------------------------------------------------------- | ------ | ---- | ------------------- | ----------- |
 | ![Colour](https://placehold.co/25/282c34/000000?text=%2B) | base00 | 0    | Background          | Default Background |
 | ![Colour](https://placehold.co/25/3f4451/000000?text=%2B) | base01 | 18   | (Darkest Gray)      | Lighter Background (Used for status bars) |
@@ -69,12 +69,12 @@ Here is an overview; additional guidance is provided in the following sections.
 | ![Colour](https://placehold.co/25/67cdff/000000?text=%2B) | base16 | 12   | Bright Blue         | NA |
 | ![Colour](https://placehold.co/25/e48bff/000000?text=%2B) | base17 | 13   | Bright Magenta      | NA |
 
-Note: The colours base00 through base05 are typically neutral.
-The colours from base08 and up are typically more colourful,
-and give the colour scheme a distinctive "look".
+Note: The colors base00 through base05 are typically neutral.
+The colors from base08 and up are typically more colorful,
+and give the color scheme a distinctive "look".
 
-Note: Items in parenthesis for the Terminal/Colour Use do not have an
-identified terminal use and are a more generic colour description.
+Note: Items in parenthesis for the Terminal/Color Use do not have an
+identified terminal use and are a more generic color description.
 Implementation may vary depending on the Base24 scheme.
 
 Note: **Bright** colors can have a higher luminosity relative to its
@@ -90,14 +90,14 @@ is not a hard requirement.
 ### Normal elements
 
 Ordinary text uses foreground base05 and background base00.
-Choose these colours for _high_ legibility, as the user does most of the reading and writing with these colours.
+Choose these colors for _high_ legibility, as the user does most of the reading and writing with these colors.
 
 Compositors and display managers
 use foreground base00 and background base01 or base05 to label normal unfocused workspaces, clients, and tabs, as well as for the borders of those elements.
 
 ### Focus elements
 
-These colours indicate where the user is currently interacting.
+These colors indicate where the user is currently interacting.
 
 Text editors use foreground base05 and background base01 to indicate the current line.
 
@@ -121,12 +121,12 @@ and base01 or base03 for the borders of those elements.
 Base08, base09, base0A, base0B, base0C, base0D and base0E
 are used to distinguish between different kinds of elements.
 
-Text editors use these colours as text foregrounds for syntax highlighting.
+Text editors use these colors as text foregrounds for syntax highlighting.
 Ensure that they are legible against the ordinary background (base01).
 
-Compositors use these colours for borders and tabs on windows in a tabbed arrangement.
+Compositors use these colors for borders and tabs on windows in a tabbed arrangement.
 
-Analysis apps (e.g., system monitors) use these colours in plots and charts to represent different variables.
+Analysis apps (e.g., system monitors) use these colors in plots and charts to represent different variables.
 
 ### Warning elements
 
@@ -137,7 +137,7 @@ Ensure that it is legible against the normal background (base00).
 
 ### Alert elements
 
-These colours indicate errors, alerts, and anything urgent.
+These colors indicate errors, alerts, and anything urgent.
 
 Text editors use base08 as text foreground for errors.
 Ensure that it is legible against the normal background (base00).
