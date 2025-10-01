@@ -1,6 +1,6 @@
 # Colors Overview
 
-**Version 0.1.1**
+**Version 0.1.2**
 
 We define a set of color codes organized into shades ranging from dark
 to light. These codes are commonly used in software development and
@@ -47,8 +47,8 @@ Here is an overview; additional guidance is provided in the following sections.
 | ![Colour](https://placehold.co/25/282c34/000000?text=%2B) | `base00` | 0    | Background          | Default Background |
 | ![Colour](https://placehold.co/25/3f4451/000000?text=%2B) | `base01` | 18   | (Darkest Gray)      | Lighter Background (Used for status bars) |
 | ![Colour](https://placehold.co/25/4f5666/000000?text=%2B) | `base02` | 19   | Bright Black        | Selection Background |
-| ![Colour](https://placehold.co/25/545862/000000?text=%2B) | `base03` | 8    | (Grey)              | Comments, Invisibles, Line Highlighting |
-| ![Colour](https://placehold.co/25/9196a1/000000?text=%2B) | `base04` | 20   | (Light Grey)        | Dark Foreground (Used for status bars) |
+| ![Colour](https://placehold.co/25/545862/000000?text=%2B) | `base03` | 8    | (Gray)              | Comments, Invisibles, Line Highlighting |
+| ![Colour](https://placehold.co/25/9196a1/000000?text=%2B) | `base04` | 20   | (Light Gray)        | Dark Foreground (Used for status bars) |
 | ![Colour](https://placehold.co/25/abb2bf/000000?text=%2B) | `base05` | 21   | Foreground          | Default Foreground, Caret, Delimiters, Operators |
 | ![Colour](https://placehold.co/25/e6e6e6/000000?text=%2B) | `base06` | 7    | White               | Light Foreground (Not often used) |
 | ![Colour](https://placehold.co/25/ffffff/000000?text=%2B) | `base07` | 15   | Bright White        | The Lightest Foreground (Not often used) |
