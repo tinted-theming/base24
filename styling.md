@@ -1,6 +1,6 @@
 # Colors Overview
 
-**Version 0.1.2**
+**Version 0.1.3**
 
 We define a set of color codes organized into shades ranging from dark
 to light. These codes are commonly used in software development and
@@ -42,15 +42,15 @@ Each color (baseNN) serves a specific purpose or use case, such as
 background, foreground, variables, etc.
 Here is an overview; additional guidance is provided in the following sections.
 
-| Color                                                  | BaseNN | Ansi | Terminal/Color Use | Text Editor |
-| ------------------------------------------------------- | ------ | ---- | ------------------- | ----------- |
-| ![Colour](https://placehold.co/25/282c34/000000?text=%2B) | `base00` | 0    | Background          | Default Background |
+| Color                                                     | base0x   | ANSI | Terminal            | Text Editor |
+| --------------------------------------------------------- | -------- | ---- | ------------------- | ----------- |
+| ![Colour](https://placehold.co/25/282c34/000000?text=%2B) | `base00` | 0    | Black (Background)  | Default Background |
 | ![Colour](https://placehold.co/25/3f4451/000000?text=%2B) | `base01` | 18   | (Darkest Gray)      | Lighter Background (Used for status bars) |
-| ![Colour](https://placehold.co/25/4f5666/000000?text=%2B) | `base02` | 19   | Bright Black        | Selection Background |
-| ![Colour](https://placehold.co/25/545862/000000?text=%2B) | `base03` | 8    | (Gray)              | Comments, Invisibles, Line Highlighting |
+| ![Colour](https://placehold.co/25/4f5666/000000?text=%2B) | `base02` | 19   | (Dark Gray)         | Selection Background |
+| ![Colour](https://placehold.co/25/545862/000000?text=%2B) | `base03` | 8    | Bright Black (Gray) | Comments, Invisibles, Line Highlighting |
 | ![Colour](https://placehold.co/25/9196a1/000000?text=%2B) | `base04` | 20   | (Light Gray)        | Dark Foreground (Used for status bars) |
-| ![Colour](https://placehold.co/25/abb2bf/000000?text=%2B) | `base05` | 21   | Foreground          | Default Foreground, Caret, Delimiters, Operators |
-| ![Colour](https://placehold.co/25/e6e6e6/000000?text=%2B) | `base06` | 7    | White               | Light Foreground (Not often used) |
+| ![Colour](https://placehold.co/25/abb2bf/000000?text=%2B) | `base05` | 7    | White               | Default Foreground, Caret, Delimiters, Operators |
+| ![Colour](https://placehold.co/25/e6e6e6/000000?text=%2B) | `base06` | 21   | (Lighter White)     | Light Foreground (Not often used) |
 | ![Colour](https://placehold.co/25/ffffff/000000?text=%2B) | `base07` | 15   | Bright White        | The Lightest Foreground (Not often used) |
 | ![Colour](https://placehold.co/25/e06c75/000000?text=%2B) | `base08` | 1    | Red                 | Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted |
 | ![Colour](https://placehold.co/25/d19a66/000000?text=%2B) | `base09` | 16   | (Orange)            | Integers, Boolean, Constants, XML Attributes, Markup Link Url |
